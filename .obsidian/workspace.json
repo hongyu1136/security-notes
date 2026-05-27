@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "4b608958463a55c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae965f718e702b09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b07080b79008ee0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba80947189590426",
+    "type": "split",
+    "children": [
+      {
+        "id": "413e0ba65d258c8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a073355d12fb10c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "41839ec87e432496",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": " git remote add origin https://github.com/hongyu1136/security-notes.git",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a71d77c993f409bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e54a6edc6f166457",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed5dcda9c6db9e8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24afcffc0650e014",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2e2519aa28030ae2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "6ac842c7538630c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "24d0d1874cb21445",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a4b0939b3fc6b773",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "publish:发布更改": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "41839ec87e432496",
+  "lastOpenFiles": [
+    "2026-05-27.md",
+    "未命名.canvas",
+    "docker/部署vulhub.md",
+    "docker/部署经典靶场（pikachu、dvwa等）.md",
+    "docker/命令.md",
+    "docker/换源.md",
+    "docker/assets/image-20251108160305-pc4aymh.png",
+    "docker/assets/image-20251108155229-70xdkrj.png",
+    "assets/image-20251108162355-z5mww8j.png.md",
+    "docker/assets/image-20251206152935-613vpv6.png",
+    "docker/assets/image-20251206151600-y717skm.png",
+    "docker/assets/image-20251206151329-z4y32j0.png",
+    "docker/assets/image-20251122203114-z4lj8ss.png",
+    "docker/assets/image-20251122202506-akrkts9.png",
+    "docker/assets/image-20251122201316-5ivfdz3.png",
+    "docker/assets/image-20251122200235-fv70gk7.png",
+    "docker/assets/image-20251122195659-554mln8.png",
+    "docker/assets",
+    "assets",
+    "docker/下载.md",
+    "docker",
+    "新建文件夹",
+    "未命名.base",
+    "未命名 1.base",
+    "未命名",
+    "2026-05-26.md"
+  ]
+}
