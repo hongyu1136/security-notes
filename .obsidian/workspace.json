@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4edfb1398ee16480",
+        "id": "756231911f7109c4",
         "type": "tabs",
         "children": [
           {
-            "id": "2a171f01b7370bf3",
+            "id": "a02ad47e942655b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pikachu靶场通关/xss/xss.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "xss"
+              "title": "新标签页"
             }
           }
         ]
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pikachu靶场通关/xss/xss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "xss 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -162,9 +157,19 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "1d8f5c4136c76b3a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,8 +188,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a171f01b7370bf3",
+  "active": "1d8f5c4136c76b3a",
   "lastOpenFiles": [
+    "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md",
+    "pikachu靶场通关/敏感信息泄露/icanseeyourABC.md",
+    "pikachu靶场通关/CSRF/CSRF.md",
+    "pikachu靶场通关/file inclusion（文件包含）/0.file inclusion（文件包含）.md",
+    "pikachu靶场通关/sql注入/0.sql注入.md",
+    "README.md",
+    "pikachu靶场通关/XXE/0.XXE.md",
+    "未命名.canvas",
+    "pikachu靶场通关/xss/0.xss.md",
     "pikachu靶场通关/URL重定向/不安全的url跳转.md",
     "pikachu靶场通关/URL重定向/0.URL重定向.md",
     "pikachu靶场通关/Unsafe Fileupload/客户端check.md",
@@ -203,11 +217,6 @@
     "docker/下载.md",
     "docker/命令.md",
     "docker/换源.md",
-    "docker/部署vulhub.md",
-    "docker/部署经典靶场（pikachu、dvwa等）.md",
-    "未命名.canvas",
-    "2026-05-27.md",
-    "pikachu靶场通关/Over Permission/水平越权.md",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-11 195201-20251211195929-kynteqq.png",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-10 203545-20251210211823-fwmsccy.png",
     "upload-labs靶场通关/assets/屏幕截图 2025-03-29 113617-20250329113817-66he6pu.png",
@@ -218,10 +227,6 @@
     "upload-labs靶场通关/assets/image-20251214100725-piod1fl.png",
     "upload-labs靶场通关/assets/image-20251213213107-nnf4zhf.png",
     "upload-labs靶场通关/assets/image-20251213204701-y8cphes.png",
-    "upload-labs靶场通关/pass-9.md",
-    "upload-labs靶场通关/pass-8.md",
-    "upload-labs靶场通关/pass-7.md",
-    "upload-labs靶场通关/pass-6.md",
     "upload-labs靶场通关/assets",
     "upload-labs靶场通关",
     "pikachu靶场通关/RCE/exec _eval_/assets",
