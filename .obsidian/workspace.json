@@ -11,10 +11,14 @@
             "id": "a02ad47e942655b9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docker/部署经典靶场（pikachu、dvwa等）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "部署经典靶场（pikachu、dvwa等）"
             }
           }
         ]
@@ -188,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a073355d12fb10c2",
+  "active": "a02ad47e942655b9",
   "lastOpenFiles": [
     "dvwa靶场通关",
     "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md",
