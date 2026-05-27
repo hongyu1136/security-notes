@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d51391cd4b571777",
+        "id": "4edfb1398ee16480",
         "type": "tabs",
         "children": [
           {
-            "id": "ef7ee4f88b80335e",
+            "id": "2a171f01b7370bf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pikachu靶场通关/xss/xss.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "xss"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pikachu靶场通关/xss/xss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "xss 的出链列表"
             }
           },
           {
@@ -179,8 +183,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef7ee4f88b80335e",
+  "active": "2a171f01b7370bf3",
   "lastOpenFiles": [
+    "pikachu靶场通关/URL重定向/不安全的url跳转.md",
+    "pikachu靶场通关/URL重定向/0.URL重定向.md",
+    "pikachu靶场通关/Unsafe Fileupload/客户端check.md",
+    "pikachu靶场通关/Unsafe Fileupload/服务端check.md",
+    "pikachu靶场通关/Unsafe Fileupload/0.Unsafe Fileupload.md",
+    "pikachu靶场通关/Unsafe Filedownload/0.Unsafe Filedownload.md",
+    "pikachu靶场通关/Unsafe Filedownload/不安全的文件下载.md",
+    "pikachu靶场通关/SSRF/SSRF.md",
+    "pikachu靶场通关/RCE/0.RCE.md",
+    "pikachu靶场通关/Over Permission/0. Over Permission.md",
+    "pikachu靶场通关/PHP反序列化/0.PHP反序列化.md",
+    "pikachu靶场通关/目录遍历（..／..／）/1.目录遍历.md",
+    "pikachu靶场通关/目录遍历（..／..／）/0.目录遍历（..／..／）.md",
+    "pikachu靶场通关/暴力破解/1.基于表单的暴力破解.md",
+    "pikachu靶场通关/暴力破解/0.暴力破解.md",
+    "docker/下载.md",
+    "docker/命令.md",
+    "docker/换源.md",
+    "docker/部署vulhub.md",
+    "docker/部署经典靶场（pikachu、dvwa等）.md",
+    "未命名.canvas",
+    "2026-05-27.md",
     "pikachu靶场通关/Over Permission/水平越权.md",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-11 195201-20251211195929-kynteqq.png",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-10 203545-20251210211823-fwmsccy.png",
@@ -196,37 +222,15 @@
     "upload-labs靶场通关/pass-8.md",
     "upload-labs靶场通关/pass-7.md",
     "upload-labs靶场通关/pass-6.md",
-    "upload-labs靶场通关/pass-5.md",
-    "upload-labs靶场通关/pass-4.md",
-    "upload-labs靶场通关/pass-3.md",
-    "upload-labs靶场通关/pass-21（增）.md",
-    "upload-labs靶场通关/pass-20.md",
-    "upload-labs靶场通关/pass-2.md",
-    "upload-labs靶场通关/pass-19.md",
-    "upload-labs靶场通关/pass-18.md",
-    "upload-labs靶场通关/pass-17.md",
-    "upload-labs靶场通关/pass-16.md",
-    "upload-labs靶场通关/pass-15.md",
-    "upload-labs靶场通关/pass-14.md",
-    "upload-labs靶场通关/pass-13.md",
-    "upload-labs靶场通关/pass-12.md",
-    "upload-labs靶场通关/pass-11.md",
-    "upload-labs靶场通关/pass-10.md",
-    "upload-labs靶场通关/pass-1.md",
     "upload-labs靶场通关/assets",
     "upload-labs靶场通关",
-    "pikachu靶场通关/Unsafe Fileupload/服务端check/知识点.md",
-    "pikachu靶场通关/RCE/exec _eval_/知识点.md",
     "pikachu靶场通关/RCE/exec _eval_/assets",
-    "pikachu靶场通关/RCE/1.exec _ping_/知识点.md",
-    "pikachu靶场通关/目录遍历（..／..／）/目录遍历.md",
     "pikachu靶场通关/目录遍历（..／..／）/assets",
     "pikachu靶场通关/暴力破解/assets",
     "pikachu靶场通关/敏感信息泄露/assets",
     "pikachu靶场通关/XXE/assets",
     "pikachu靶场通关/xss/assets",
     "pikachu靶场通关/URL重定向/assets",
-    "pikachu靶场通关/Unsafe Fileupload/服务端check",
-    "未命名.canvas"
+    "pikachu靶场通关/Unsafe Fileupload/服务端check"
   ]
 }
