@@ -192,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a02ad47e942655b9",
+  "active": "a073355d12fb10c2",
   "lastOpenFiles": [
+    "未命名",
     "dvwa靶场通关",
     "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md",
     "pikachu靶场通关/敏感信息泄露/icanseeyourABC.md",
@@ -239,7 +240,6 @@
     "pikachu靶场通关/敏感信息泄露/assets",
     "pikachu靶场通关/XXE/assets",
     "pikachu靶场通关/xss/assets",
-    "pikachu靶场通关/URL重定向/assets",
-    "pikachu靶场通关/Unsafe Fileupload/服务端check"
+    "pikachu靶场通关/URL重定向/assets"
   ]
 }
