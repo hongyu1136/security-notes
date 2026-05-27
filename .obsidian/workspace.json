@@ -188,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d8f5c4136c76b3a",
+  "active": "a073355d12fb10c2",
   "lastOpenFiles": [
+    "dvwa靶场通关",
     "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md",
     "pikachu靶场通关/敏感信息泄露/icanseeyourABC.md",
     "pikachu靶场通关/CSRF/CSRF.md",
@@ -216,7 +217,6 @@
     "pikachu靶场通关/暴力破解/0.暴力破解.md",
     "docker/下载.md",
     "docker/命令.md",
-    "docker/换源.md",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-11 195201-20251211195929-kynteqq.png",
     "upload-labs靶场通关/assets/屏幕截图 2025-12-10 203545-20251210211823-fwmsccy.png",
     "upload-labs靶场通关/assets/屏幕截图 2025-03-29 113617-20250329113817-66he6pu.png",
