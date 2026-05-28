@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "756231911f7109c4",
+        "id": "86264a2971eaf5b6",
         "type": "tabs",
         "children": [
           {
-            "id": "a02ad47e942655b9",
+            "id": "a54c9fc9bd1c8a84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker/部署经典靶场（pikachu、dvwa等）.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "部署经典靶场（pikachu、dvwa等）"
+              "title": "新标签页"
             }
           }
         ]
@@ -194,8 +190,37 @@
   },
   "active": "a073355d12fb10c2",
   "lastOpenFiles": [
-    "_private/AI-上下文.md",
+    "sqllabs/assets/image-20250426202058-gqkwpo2.png",
+    "sqllabs/Less15.md",
+    "sqllabs/assets/image-20250426212755-w57fb51.png",
+    "sqllabs/assets/image-20250426212727-ddzx2fh.png",
+    "sqllabs/assets/image-20250426212705-coke1ce.png",
+    "sqllabs/assets/image-20250426212328-iti37a6.png",
+    "sqllabs/Less14.md",
+    "sqllabs/Less13.md",
+    "sqllabs/assets/assets/image-20250426212831-xxzor6r.png",
+    "sqllabs/assets/assets/image-20250426212755-w57fb51.png",
+    "sqllabs/assets/assets/image-20250426212727-ddzx2fh.png",
+    "sqllabs/assets/assets/image-20250426212705-coke1ce.png",
+    "sqllabs/assets/assets/image-20250426212328-iti37a6.png",
+    "sqllabs/assets/assets",
+    "Pasted image 20260528165422.png",
+    "sqllabs/Less3-'）闭合.md",
+    "sqllabs/Less-2—整型（数字型）注入.md",
+    "sqllabs/Less-4  双引号）闭合.md",
+    "sqllabs/Less5——（报错注入）.md",
+    "sqllabs/less-1—单引号字符型注入.md",
     "docker/部署经典靶场（pikachu、dvwa等）.md",
+    "sqllabs/Less15/assets",
+    "sqllabs/Less15",
+    "sqllabs/assets/sqli-labs-master-20250426101231-lo1jnxr.zip",
+    "sqllabs/assets",
+    "sqllabs/靶场搭建.md",
+    "sqllabs/sql注入知识.md",
+    "sqllabs/Less12.md",
+    "sqllabs/Less11.md",
+    "sqllabs",
+    "_private/AI-上下文.md",
     "_private/未命名.md",
     "_private",
     "dvwa靶场通关",
@@ -210,36 +235,7 @@
     "pikachu靶场通关/xss/0.xss.md",
     "pikachu靶场通关/URL重定向/不安全的url跳转.md",
     "pikachu靶场通关/URL重定向/0.URL重定向.md",
-    "pikachu靶场通关/Unsafe Fileupload/客户端check.md",
-    "pikachu靶场通关/Unsafe Fileupload/服务端check.md",
-    "pikachu靶场通关/Unsafe Fileupload/0.Unsafe Fileupload.md",
-    "pikachu靶场通关/Unsafe Filedownload/0.Unsafe Filedownload.md",
-    "pikachu靶场通关/Unsafe Filedownload/不安全的文件下载.md",
-    "pikachu靶场通关/SSRF/SSRF.md",
-    "pikachu靶场通关/RCE/0.RCE.md",
-    "pikachu靶场通关/Over Permission/0. Over Permission.md",
-    "pikachu靶场通关/PHP反序列化/0.PHP反序列化.md",
-    "pikachu靶场通关/目录遍历（..／..／）/1.目录遍历.md",
-    "pikachu靶场通关/目录遍历（..／..／）/0.目录遍历（..／..／）.md",
-    "pikachu靶场通关/暴力破解/1.基于表单的暴力破解.md",
-    "pikachu靶场通关/暴力破解/0.暴力破解.md",
-    "upload-labs靶场通关/assets/屏幕截图 2025-12-11 195201-20251211195929-kynteqq.png",
-    "upload-labs靶场通关/assets/屏幕截图 2025-12-10 203545-20251210211823-fwmsccy.png",
-    "upload-labs靶场通关/assets/屏幕截图 2025-03-29 113617-20250329113817-66he6pu.png",
-    "upload-labs靶场通关/assets/屏幕截图 2025-03-29 113515-20250329113900-9h2zk7c.png",
-    "upload-labs靶场通关/assets/屏幕截图 2025-03-29 113418-20250329113742-ajgu5ce.png",
-    "upload-labs靶场通关/assets/屏幕截图 2025-03-29 112248-20250329112402-wqq93f5.png",
-    "upload-labs靶场通关/assets/image-20251214102006-qlsq0dx.png",
-    "upload-labs靶场通关/assets/image-20251214100725-piod1fl.png",
-    "upload-labs靶场通关/assets/image-20251213213107-nnf4zhf.png",
-    "upload-labs靶场通关/assets/image-20251213204701-y8cphes.png",
     "upload-labs靶场通关/assets",
-    "upload-labs靶场通关",
-    "pikachu靶场通关/RCE/exec _eval_/assets",
-    "pikachu靶场通关/目录遍历（..／..／）/assets",
-    "pikachu靶场通关/暴力破解/assets",
-    "pikachu靶场通关/敏感信息泄露/assets",
-    "pikachu靶场通关/XXE/assets",
-    "pikachu靶场通关/xss/assets"
+    "upload-labs靶场通关"
   ]
 }
