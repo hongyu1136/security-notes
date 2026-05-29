@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqllabs/Less5.md",
+                "file": "sqllabs/Less11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less5"
+              "title": "Less11"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e54a6edc6f166457",
@@ -177,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,11 +194,12 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
+    "sqllabs/Less12.md",
+    "sqllabs/Less11.md",
     "sqllabs/Less6.md",
     "sqllabs/Less5.md",
     "sqllabs/Less1.md",
     "未命名",
-    "sqllabs/Less11.md",
     "sqllabs/Less4.md",
     "sqllabs/Less2.md",
     "_private/AI-上下文.md",
@@ -223,7 +224,6 @@
     "sqllabs/sql注入知识.md",
     "sqllabs/Less15.md",
     "sqllabs/Less13.md",
-    "sqllabs/Less12.md",
     "sqllabs/assets",
     "sqllabs",
     "sqllabs/assets/assets",

