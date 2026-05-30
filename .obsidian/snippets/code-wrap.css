@@ -1,0 +1,13 @@
+/* 编辑模式和阅读模式代码块自动换行 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.markdown-preview-view pre code {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+/* 可选：优化换行后的缩进显示 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+    text-indent: -2em;
+    padding-left: 2em;
+}
