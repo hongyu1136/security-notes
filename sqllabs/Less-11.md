@@ -37,3 +37,7 @@
 　　爆出数据：' union select 1,group\_concat(username ,id , password) from users --+
 
 ![image](assets/image-20250426200623-ginskx2.png)
+
+---
+**使用sqlmap**
+
