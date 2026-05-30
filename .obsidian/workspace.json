@@ -194,6 +194,10 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
+    "sqllabs/assets/Less6/file-20260530150534319.png",
+    "sqllabs/assets/Less6/file-20260530145250875.png",
+    "sqllabs/assets/Less6/file-20260530145118656.png",
+    "sqllabs/assets/Less6",
     "sqllabs/Less11.md",
     "sqllabs/Less5.md",
     "sqllabs/Less6.md",
@@ -217,11 +221,9 @@
     "sqllabs/assets/Pasted image 20260529161542.png",
     "sqllabs/assets/Pasted image 20260529161331.png",
     "README.md",
-    "sqllabs/assets/Pasted image 20260529161026.png",
     "sqllabs/Less12.md",
     "未命名",
     "_private/AI-上下文.md",
-    "docker/assets/image-20251108155229-70xdkrj.png",
     "docker/命令.md",
     "docker/下载.md",
     "docker/部署经典靶场（pikachu、dvwa等）.md",
@@ -238,7 +240,6 @@
     "sqllabs/Less15",
     "_private/未命名.md",
     "_private",
-    "dvwa靶场通关",
     "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md"
   ]
 }
