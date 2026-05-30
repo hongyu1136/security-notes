@@ -23,8 +23,12 @@
 		4 /usr/share/nginx
 		5 /var/www/html
 	然后 验证是否具有这几个条件
-	1. 获取文件权限的可读
-	1')) and (select count(*) from mysql.user)>0 %23
+	1. 验证文件权限的可读
+	1')) and (select count(*) from mysql.user)>0 %23 
+	**正常 → 确认是高权限用户，可以进行文件注入**
 	2. 注入文件
 	这里要求猜一下他的绝对路径
+	```payload
+	
+	```
 
