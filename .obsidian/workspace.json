@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqllabs/Less5.md",
+                "file": "sqllabs/Less6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less5"
+              "title": "Less6"
             }
           }
         ]
@@ -194,25 +194,30 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
-    "sqllabs/assets/Less5/file-20260530135049067.png",
-    "sqllabs/assets/Less5",
-    "sqllabs/Less1.md",
+    "sqllabs/Less11.md",
     "sqllabs/Less5.md",
     "sqllabs/Less6.md",
-    "sqllabs/Less4.md",
+    "sqllabs/sql注入知识.md",
+    "未命名.canvas",
+    "2026-05-30.md",
+    "sqllabs/assets/Less5/file-20260530144227715.png",
+    "sqllabs/assets/Less5/file-20260530143929579.png",
     "sqllabs/Less3.md",
+    "sqllabs/Less1.md",
+    "sqllabs/靶场搭建.md",
+    "sqllabs/Less2.md",
+    "sqllabs/Less4.md",
+    "sqllabs/assets/Less5/file-20260530135049067.png",
+    "sqllabs/assets/Less5",
     "网络工程师学习笔记.md",
     "sqllabs/Less13.md",
-    "sqllabs/靶场搭建.md",
     "sqllabs/assets/Pasted image 20260529164648.png",
     "sqllabs/assets/Pasted image 20260529161944.png",
-    "sqllabs/Less2.md",
     "sqllabs/assets/Pasted image 20260529161804.png",
     "sqllabs/assets/Pasted image 20260529161542.png",
     "sqllabs/assets/Pasted image 20260529161331.png",
     "README.md",
     "sqllabs/assets/Pasted image 20260529161026.png",
-    "sqllabs/Less11.md",
     "sqllabs/Less12.md",
     "未命名",
     "_private/AI-上下文.md",
@@ -222,11 +227,7 @@
     "docker/部署经典靶场（pikachu、dvwa等）.md",
     "docker/部署vulhub.md",
     "sqllabs/Less14.md",
-    "sqllabs/assets/屏幕截图 2025-04-26 193503-20250426193549-af519pr.png",
-    "sqllabs/assets/屏幕截图 2025-04-26 192058-20250426193033-tkwfinf.png",
     "sqllabs/assets/sqli-labs-master-20250426101231-lo1jnxr.zip",
-    "sqllabs/assets/image-20251108095738-q9hfaxi.png",
-    "sqllabs/sql注入知识.md",
     "sqllabs/Less15.md",
     "sqllabs/assets",
     "sqllabs",
@@ -238,8 +239,6 @@
     "_private/未命名.md",
     "_private",
     "dvwa靶场通关",
-    "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md",
-    "pikachu靶场通关/敏感信息泄露/icanseeyourABC.md",
-    "未命名.canvas"
+    "pikachu靶场通关/敏感信息泄露/敏感信息泄露.md"
   ]
 }
