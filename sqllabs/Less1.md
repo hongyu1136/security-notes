@@ -14,13 +14,12 @@
 
 　　正常 **说明为字符型注入**
 
-![image](assets/image-20251107192741-73eoew4.png)
 
 　　**判断注入点**
 
 　　 **?id=1' 报错回显**
 
-![image](assets/image-20251107192741-73eoew4.png)
+![](assets/Less1/file-20260530160846174.png)
 
 　　 **?id=1' and 1=1--+ 正常**
 
