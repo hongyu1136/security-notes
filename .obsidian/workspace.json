@@ -208,6 +208,8 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
+    "_private/信息摄入计划.md",
+    "_private/学习日志.md",
     "sqllabs/Less-15.md",
     "sqllabs/Less-16.md",
     "sqllabs/assets/Less-15/file-20260530224512440.png",
@@ -252,8 +254,6 @@
     "README.md",
     "_private/AI-上下文.md",
     "docker/命令.md",
-    "docker/下载.md",
-    "docker/部署经典靶场（pikachu、dvwa等）.md",
-    "docker/部署vulhub.md"
+    "docker/下载.md"
   ]
 }
