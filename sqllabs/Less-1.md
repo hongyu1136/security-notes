@@ -84,6 +84,9 @@
 
 ---
 **sqlmap**
+--batch表示碰到选择时选用默认选项，--dbs表示爬取所有数据库名
+-D  库名 --tables表示爬取某数据库下的所有表
+-D 库名 -T 表名--columns表示爬取某库下某表的所有列
 
 sqlmap -u "ip/Less-1/?id=1"  #检测注入点
 ![[assets/Pasted image 20260529161026.png]]
