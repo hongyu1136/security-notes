@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
-    "code-wrap"
+    "code-wrap",
+    "code-wrap-ultimate"
   ]
 }
