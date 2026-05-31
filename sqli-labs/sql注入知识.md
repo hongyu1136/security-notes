@@ -66,3 +66,32 @@ sql
 ```
 结果格式：DOUBLE value is out of range in 'exp(数据)'
 优缺点：无长度限制；适用版本稍高
+
+---
+
+## sqli-labs 22 关速查表
+
+| 关卡 | 类型 | 方法 | 闭合 | 注入点 | 报错 | 回显 |
+|------|------|------|------|--------|------|------|
+| Less-1 | GET | 报错/UNION | `'` | id | ✅ | ✅ |
+| Less-2 | GET | 报错/UNION | 数字 | id | ✅ | ✅ |
+| Less-3 | GET | 报错/UNION | `')` | id | ✅ | ✅ |
+| Less-4 | GET | 报错/UNION | `"` | id | ✅ | ✅ |
+| Less-5 | GET | 报错/盲注 | `'` | id | ✅ | ❌ |
+| Less-6 | GET | 报错/盲注 | `"` | id | ✅ | ❌ |
+| Less-7 | GET | 写文件 | `'))` | id | ❌ | ❌ |
+| Less-8 | GET | 时间盲注 | `'` | id | ❌ | ❌ |
+| Less-9 | GET | 时间盲注 | `'` | id | ❌ | ❌ |
+| Less-10 | GET | 时间盲注 | `"` | id | ❌ | ❌ |
+| Less-11 | POST | UNION/报错 | `'` | uname/passwd | ✅ | ✅ |
+| Less-12 | POST | UNION/报错 | `")` | uname/passwd | ✅ | ✅ |
+| Less-13 | POST | 报错注入 | `')` | uname | ✅ | ❌ |
+| Less-14 | POST | 报错注入 | `"` | uname | ✅ | ❌ |
+| Less-15 | POST | 布尔盲注 | `'` | uname | ❌ | ❌ |
+| Less-16 | POST | 时间盲注 | `")` | uname | ❌ | ❌ |
+| Less-17 | POST | UPDATE报错 | `'` | passwd | ✅ | ❌ |
+| Less-18 | Header | 报错注入 | `'` | User-Agent | ✅ | ❌ |
+| Less-19 | Header | 报错注入 | `'` | Referer | ✅ | ❌ |
+| Less-20 | Cookie | 报错/UNION | `'` | Cookie:uname | ✅ | ✅ |
+| Less-21 | Cookie | base64+报错 | `')` | Cookie:uname | ✅ | ✅ |
+| Less-22 | Cookie | base64+报错 | `"` | Cookie:uname | ✅ | ✅ |

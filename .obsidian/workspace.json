@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqli-labs/Less-22.md",
+                "file": "sqli-labs/sql注入知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less-22"
+              "title": "sql注入知识"
             }
           },
           {
@@ -210,6 +210,7 @@
   "lastOpenFiles": [
     "sqli-labs/Less-21.md",
     "sqli-labs/Less-22.md",
+    "sqli-labs/靶场搭建.md",
     "sqli-labs/assets/Less-21/file-20260531210237668.png",
     "sqli-labs/assets/Less-21/file-20260531210217000.png",
     "sqli-labs/assets/Less-21/file-20260531204936461.png",
@@ -253,7 +254,6 @@
     "sqli-labs/Less-3.md",
     "sqli-labs/Less-6.md",
     "sqli-labs/Less-7.md",
-    "sqli-labs/Less-5.md",
     "未命名.canvas"
   ]
 }

