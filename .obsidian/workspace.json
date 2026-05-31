@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqllabs/Less-17.md",
+                "file": "sqllabs/Less18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less-17"
+              "title": "Less18"
             }
           },
           {
@@ -208,11 +208,12 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
+    "sqllabs/Less-17.md",
+    "sqllabs/Less18.md",
     "sqllabs/assets/Less-17/file-20260531155402620.png",
     "sqllabs/assets/Less-17",
     "sqllabs/Less-2.md",
     "sqllabs/Less-1.md",
-    "sqllabs/Less-17.md",
     "sqllabs/Less-16.md",
     "sqllabs/assets/Less-16/file-20260531134701103.png",
     "sqllabs/Less-15.md",
@@ -240,7 +241,6 @@
     "sqllabs/Less-10.md",
     "sqllabs/Less-4.md",
     "sqllabs/Less-3.md",
-    "sqllabs/assets/Less-8/file-20260530212514478.png",
     "sqllabs/Less-6.md",
     "sqllabs/assets/Less-8",
     "sqllabs/Less-7.md",

