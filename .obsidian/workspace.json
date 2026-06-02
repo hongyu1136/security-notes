@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqli-labs/sql注入知识.md",
+                "file": "sqli-labs/Less-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sql注入知识"
-            }
-          },
-          {
-            "id": "e658eec7f5b799fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sqllabs/Less-11.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Less-11"
+              "title": "Less-24"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,9 +171,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8b122482dfd68420",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -203,57 +199,58 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "publish:发布更改": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "realclaudian:Open Claudian": false
     }
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
-    "sqli-labs/Less-21.md",
+    "99_Attachments/图片/Less-24/file-20260602155631933.png",
+    "99_Attachments/图片/Less-24",
+    "sqli-labs/Less-23.md",
+    "sqli-labs/Less-24.md",
+    "99_Attachments/图片/Less-23/file-20260602154329444.png",
     "sqli-labs/Less-22.md",
+    "99_Attachments/图片/Less-23/file-20260602151913935.png",
+    "99_Attachments/图片/Less-23",
+    "_templates/Lab-靶场通关.md",
+    "知识库地图.md",
+    "_templates/Attack-攻击技术.md",
+    "_templates/CTF-Writeup.md",
+    "_templates/Tool-工具卡片.md",
+    "_templates/Vulnerability-漏洞分析.md",
+    "99_Attachments/脚本",
+    "99_Attachments/Payload",
+    "06_Skills/报告撰写",
+    "06_Skills/应急响应",
+    "06_Skills/渗透测试",
+    "06_Skills/漏洞挖掘",
+    "06_Skills/信息收集",
+    "04_Outputs/靶场报告",
+    "_templates/Topic-选题.md",
+    "_templates/Knowledge-知识卡片.md",
+    "_templates/Inbox-待处理.md",
+    "sqli-labs/Less-21.md",
+    "sqli-labs/Less-11.md",
+    "sqli-labs/sql注入知识.md",
     "sqli-labs/靶场搭建.md",
     "sqli-labs/assets/Less-21/file-20260531210237668.png",
     "sqli-labs/assets/Less-21/file-20260531210217000.png",
     "sqli-labs/assets/Less-21/file-20260531204936461.png",
     "sqli-labs/assets/Less-21/file-20260531204734238.png",
-    "sqli-labs/assets/Less-21",
     "sqli-labs/Less-20.md",
     "sqli-labs/assets/Less-20/file-20260531203514122.png",
     "sqli-labs/assets/Less-20/file-20260531202847752.png",
     "sqli-labs/assets/Less-20/file-20260531202759785.png",
     "sqli-labs/assets/Less-20/file-20260531202408265.png",
-    "sqli-labs/assets/Less-20/file-20260531202347926.png",
-    "sqli-labs/assets/Less-20",
     "sqli-labs/Less-19.md",
-    "sqli-labs/assets/Less-19",
     "sqli-labs/Less-16.md",
     "sqli-labs/Less-17.md",
     "sqli-labs/Less-18.md",
-    "sqli-labs/assets/Less-19/file-20260531201358880.png",
-    "sqllabs/assets/Less19",
-    "sqli-labs/assets/Less-18",
-    "sqllabs/assets/Less18",
-    "sqli-labs/assets/Less-17",
     "sqli-labs/Less-2.md",
     "sqli-labs/Less-1.md",
     "sqli-labs/Less-15.md",
     "sqli-labs/Less-14.md",
-    "sqli-labs/assets/Less-16",
-    "_private/CET4-15天冲刺计划.md",
-    "_private/信息摄入计划.md",
-    "_private/学习日志.md",
-    "sqli-labs/Less-12.md",
-    "sqli-labs/sql注入知识.md",
-    "sqli-labs/assets/Less-15",
-    "sqli-labs/Less-13.md",
-    "sqli-labs/Less-8.md",
-    "sqli-labs/Less-11.md",
-    "sqli-labs/Less-9.md",
-    "sqli-labs/assets/Less-11",
-    "sqli-labs/Less-10.md",
-    "sqli-labs/Less-4.md",
-    "sqli-labs/Less-3.md",
-    "sqli-labs/Less-6.md",
-    "sqli-labs/Less-7.md",
     "未命名.canvas"
   ]
 }
