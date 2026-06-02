@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqli-labs/Less-24.md",
+                "file": "sqli-labs/Less-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less-24"
+              "title": "Less-26"
             }
           }
         ]
@@ -205,10 +205,21 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
+    "06_Skills/应急响应/应急响应流程.md",
+    "06_Skills/漏洞挖掘/漏洞挖掘流程.md",
+    "06_Skills/报告撰写/报告撰写流程.md",
+    "sqli-labs/Less-25.md",
+    "sqli-labs/Less-26.md",
+    "99_Attachments/图片/Less-25/file-20260602164049337.png",
+    "99_Attachments/图片/Less-25/file-20260602163538995.png",
+    "99_Attachments/图片/Less-25",
+    "06_Skills/渗透测试/渗透测试流程.md",
+    "06_Skills/信息收集/信息收集流程.md",
+    "sqli-labs/Less-24.md",
+    "99_Attachments/图片/Less-24/file-20260602162526479.png",
     "99_Attachments/图片/Less-24/file-20260602155631933.png",
     "99_Attachments/图片/Less-24",
     "sqli-labs/Less-23.md",
-    "sqli-labs/Less-24.md",
     "99_Attachments/图片/Less-23/file-20260602154329444.png",
     "sqli-labs/Less-22.md",
     "99_Attachments/图片/Less-23/file-20260602151913935.png",
@@ -226,7 +237,6 @@
     "06_Skills/渗透测试",
     "06_Skills/漏洞挖掘",
     "06_Skills/信息收集",
-    "04_Outputs/靶场报告",
     "_templates/Topic-选题.md",
     "_templates/Knowledge-知识卡片.md",
     "_templates/Inbox-待处理.md",
@@ -239,18 +249,8 @@
     "sqli-labs/assets/Less-21/file-20260531204936461.png",
     "sqli-labs/assets/Less-21/file-20260531204734238.png",
     "sqli-labs/Less-20.md",
-    "sqli-labs/assets/Less-20/file-20260531203514122.png",
-    "sqli-labs/assets/Less-20/file-20260531202847752.png",
-    "sqli-labs/assets/Less-20/file-20260531202759785.png",
-    "sqli-labs/assets/Less-20/file-20260531202408265.png",
     "sqli-labs/Less-19.md",
     "sqli-labs/Less-16.md",
-    "sqli-labs/Less-17.md",
-    "sqli-labs/Less-18.md",
-    "sqli-labs/Less-2.md",
-    "sqli-labs/Less-1.md",
-    "sqli-labs/Less-15.md",
-    "sqli-labs/Less-14.md",
     "未命名.canvas"
   ]
 }

@@ -18,3 +18,8 @@ $sql = "UPDATE users SET PASSWORD='$pass' where username='$username' and passwor
 注册使用admin'#
 密码:123456
 ![](99_Attachments/图片/Less-24/file-20260602155631933.png)
+修改密码
+	改为666666
+	使用admin ——666666
+成功登录
+![](99_Attachments/图片/Less-24/file-20260602162526479.png)
