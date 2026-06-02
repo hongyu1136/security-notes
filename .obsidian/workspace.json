@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sqli-labs/Less-26.md",
+                "file": "06_Skills/应急响应/应急响应流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less-26"
+              "title": "应急响应流程"
             }
           }
         ]
@@ -205,11 +205,17 @@
   },
   "active": "707a9cbf468b64eb",
   "lastOpenFiles": [
-    "06_Skills/应急响应/应急响应流程.md",
     "06_Skills/漏洞挖掘/漏洞挖掘流程.md",
+    "_private/CET4-15天冲刺计划.md",
+    "_private/学习日志.md",
+    "_private/AI-上下文.md",
+    "_private/信息摄入计划.md",
+    "sqli-labs/Less-26.md",
+    "99_Attachments/图片/Less-26/file-20260602171716026.png",
+    "99_Attachments/图片/Less-26",
+    "06_Skills/应急响应/应急响应流程.md",
     "06_Skills/报告撰写/报告撰写流程.md",
     "sqli-labs/Less-25.md",
-    "sqli-labs/Less-26.md",
     "99_Attachments/图片/Less-25/file-20260602164049337.png",
     "99_Attachments/图片/Less-25/file-20260602163538995.png",
     "99_Attachments/图片/Less-25",
@@ -236,21 +242,15 @@
     "06_Skills/应急响应",
     "06_Skills/渗透测试",
     "06_Skills/漏洞挖掘",
-    "06_Skills/信息收集",
     "_templates/Topic-选题.md",
     "_templates/Knowledge-知识卡片.md",
     "_templates/Inbox-待处理.md",
     "sqli-labs/Less-21.md",
     "sqli-labs/Less-11.md",
     "sqli-labs/sql注入知识.md",
-    "sqli-labs/靶场搭建.md",
     "sqli-labs/assets/Less-21/file-20260531210237668.png",
     "sqli-labs/assets/Less-21/file-20260531210217000.png",
     "sqli-labs/assets/Less-21/file-20260531204936461.png",
-    "sqli-labs/assets/Less-21/file-20260531204734238.png",
-    "sqli-labs/Less-20.md",
-    "sqli-labs/Less-19.md",
-    "sqli-labs/Less-16.md",
     "未命名.canvas"
   ]
 }
