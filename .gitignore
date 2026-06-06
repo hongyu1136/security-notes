@@ -1,1 +1,16 @@
-_private/
+# Obsidian 本地配置（每个设备可能不同）
+.obsidian/
+
+# AI 助手会话和缓存
+.claude/
+.claudian/
+
+# 私人内容（已单独排除 _private/）
+
+# 压缩包（可重新下载）
+*.zip
+*.tar.gz
+*.7z
+
+# 系统文件
+Thumbs.db
