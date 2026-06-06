@@ -5,7 +5,8 @@
 .claude/
 .claudian/
 
-# 私人内容（已单独排除 _private/）
+# 私人内容
+_private/
 
 # 压缩包（可重新下载）
 *.zip
