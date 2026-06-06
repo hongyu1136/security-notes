@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6def476e9595a5d3",
+        "id": "fa21148618a6457c",
         "type": "tabs",
         "children": [
           {
-            "id": "707a9cbf468b64eb",
+            "id": "a6c74e46ce2b7b5b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_private/AI-上下文.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AI-上下文"
+              "title": "新标签页"
             }
           }
         ]
@@ -203,10 +199,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "707a9cbf468b64eb",
+  "active": "a6c74e46ce2b7b5b",
   "lastOpenFiles": [
-    "06_Skills/应急响应/应急响应流程.md",
     "_private/AI-上下文.md",
+    "06_Skills/应急响应/应急响应流程.md",
     "06_Skills/漏洞挖掘/漏洞挖掘流程.md",
     "_private/CET4-15天冲刺计划.md",
     "_private/学习日志.md",
