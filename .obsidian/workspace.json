@@ -11,10 +11,14 @@
             "id": "a6c74e46ce2b7b5b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sqli-labs/Less-26.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Less-26"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": " 安顺",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,8 +204,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6c74e46ce2b7b5b",
+  "active": "41839ec87e432496",
   "lastOpenFiles": [
+    "06_Skills/渗透测试/渗透测试流程.md",
     "_private/AI-上下文.md",
     "_private/AI-上下文(7).md",
     "06_Skills/应急响应/应急响应流程.md",
@@ -216,7 +222,6 @@
     "99_Attachments/图片/Less-25/file-20260602164049337.png",
     "99_Attachments/图片/Less-25/file-20260602163538995.png",
     "99_Attachments/图片/Less-25",
-    "06_Skills/渗透测试/渗透测试流程.md",
     "06_Skills/信息收集/信息收集流程.md",
     "sqli-labs/Less-24.md",
     "99_Attachments/图片/Less-24/file-20260602162526479.png",
