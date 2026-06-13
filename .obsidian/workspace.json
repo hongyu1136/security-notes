@@ -205,6 +205,7 @@
   },
   "active": "e012c7a4c882d384",
   "lastOpenFiles": [
+    "03_Topics/工具研究/recon-8schools.sh",
     "03_Topics/工具研究/docker/assets/image-20251206152935-613vpv6.png",
     "03_Topics/工具研究/docker/assets/image-20251206151600-y717skm.png",
     "03_Topics/工具研究/docker/assets/image-20251206151329-z4y32j0.png",
@@ -215,7 +216,6 @@
     "03_Topics/工具研究/docker/assets/image-20251122195659-554mln8.png",
     "03_Topics/工具研究/docker/assets/image-20251108162455-57m51hy.png",
     "03_Topics/工具研究/docker/assets/image-20251108162355-z5mww8j.png",
-    "03_Topics/工具研究/docker/assets/image-20251108160305-pc4aymh.png",
     "03_Topics/工具研究/docker/部署经典靶场（pikachu、dvwa等）.md",
     "03_Topics/工具研究/docker/部署vulhub.md",
     "03_Topics/工具研究/docker/换源.md",
