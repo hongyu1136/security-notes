@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Topics/靶场项目/sqli-labs/Less-27.md",
+                "file": "03_Topics/靶场项目/sqli-labs/Less-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Less-27"
+              "title": "Less-26"
             }
           }
         ]
@@ -205,8 +205,14 @@
   },
   "active": "e012c7a4c882d384",
   "lastOpenFiles": [
-    "03_Topics/靶场项目/sqli-labs/Less-26.md",
+    "03_Topics/靶场项目/sqli-labs/Less-28a.md",
+    "03_Topics/靶场项目/sqli-labs/Less-27a.md",
     "03_Topics/靶场项目/sqli-labs/Less-25.md",
+    "03_Topics/靶场项目/sqli-labs/Less-24.md",
+    "03_Topics/靶场项目/sqli-labs/Less-23.md",
+    "03_Topics/靶场项目/sqli-labs/Less-26.md",
+    "03_Topics/靶场项目/sqli-labs/Less-27.md",
+    "test_write.txt",
     "_templates/Lab-靶场通关.md",
     "知识库地图.md",
     "03_Topics/工具研究/recon-8schools.sh",
@@ -239,18 +245,12 @@
     "03_Topics/靶场项目/upload-labs靶场通关/pass-20.md",
     "03_Topics/靶场项目/upload-labs靶场通关/pass-19.md",
     "03_Topics/靶场项目/upload-labs靶场通关/pass-18.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-10.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-17.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-15.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-16.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-14.md",
     "03_Topics/靶场项目/upload-labs靶场通关/assets",
     "03_Topics/靶场项目/upload-labs靶场通关",
     "03_Topics/靶场项目/sqli-labs/assets/sqli-labs-master-20250426101231-lo1jnxr.zip",
     "03_Topics/靶场项目/sqli-labs/assets/Less-8",
     "03_Topics/靶场项目/sqli-labs/assets/Less-7",
     "03_Topics/靶场项目/sqli-labs/assets/Less-6",
-    "03_Topics/靶场项目/sqli-labs/assets/Less-5",
     "未命名.canvas"
   ]
 }

