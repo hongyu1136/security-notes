@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
+  "model": "deepseek-v4-pro[1M]",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -24,7 +24,7 @@
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
-      "safeMode": "acceptEdits",
+      "safeMode": "auto",
       "cliPath": "",
       "cliPathsByHost": {},
       "loadUserSettings": true,
@@ -32,7 +32,7 @@
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "customModels": "",
+      "customModels": "deepseek-v4-flash\ndeepseek-v4-pro[1M]\ndeepseek-v4-pro[1M]",
       "lastModel": "haiku",
       "environmentVariables": "",
       "environmentHash": ""
@@ -78,7 +78,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "deepseek-v4-pro[1M]"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -88,7 +88,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "",
+  "lastCustomModel": "deepseek-v4-pro[1M]",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
