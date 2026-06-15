@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库地图.md",
+                "file": "03_Topics/靶场项目/sqli-labs/Less-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "知识库地图"
+              "title": "Less-27"
             }
           }
         ]
@@ -205,6 +205,10 @@
   },
   "active": "e012c7a4c882d384",
   "lastOpenFiles": [
+    "03_Topics/靶场项目/sqli-labs/Less-26.md",
+    "03_Topics/靶场项目/sqli-labs/Less-25.md",
+    "_templates/Lab-靶场通关.md",
+    "知识库地图.md",
     "03_Topics/工具研究/recon-8schools.sh",
     "03_Topics/工具研究/docker/assets/image-20251206152935-613vpv6.png",
     "03_Topics/工具研究/docker/assets/image-20251206151600-y717skm.png",
@@ -240,9 +244,6 @@
     "03_Topics/靶场项目/upload-labs靶场通关/pass-15.md",
     "03_Topics/靶场项目/upload-labs靶场通关/pass-16.md",
     "03_Topics/靶场项目/upload-labs靶场通关/pass-14.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-13.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-12.md",
-    "03_Topics/靶场项目/upload-labs靶场通关/pass-11.md",
     "03_Topics/靶场项目/upload-labs靶场通关/assets",
     "03_Topics/靶场项目/upload-labs靶场通关",
     "03_Topics/靶场项目/sqli-labs/assets/sqli-labs-master-20250426101231-lo1jnxr.zip",
@@ -250,7 +251,6 @@
     "03_Topics/靶场项目/sqli-labs/assets/Less-7",
     "03_Topics/靶场项目/sqli-labs/assets/Less-6",
     "03_Topics/靶场项目/sqli-labs/assets/Less-5",
-    "03_Topics/靶场项目/sqli-labs/assets/Less-21",
     "未命名.canvas"
   ]
 }
