@@ -5,6 +5,9 @@
 .claude/
 .claudian/
 
+# LLM Wiki: 原始素材层（私有，不公开）
+raw/
+
 # 私人内容
 _private/
 

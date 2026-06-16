@@ -1,0 +1,58 @@
+#!/bin/bash
+# Pre-commit hook: 隐私检查
+# 扫描暂存区 wiki/ 文件，拦截 public: false 和敏感信息
+
+set -e
+
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+if [ -z "$STAGED_FILES" ]; then
+    exit 0
+fi
+
+HAS_ERROR=0
+
+# 1. 检查 YAML frontmatter public: false
+echo "🔍 Checking public: false in staged wiki/ files..."
+for f in $STAGED_FILES; do
+    if [[ "$f" == wiki/* ]] || [[ "$f" == schema/* ]]; then
+        if head -20 "$f" 2>/dev/null | grep -q 'public:\s*false'; then
+            echo "❌ BLOCKED: $f has public: false — remove or set to true before commit"
+            HAS_ERROR=1
+        fi
+    fi
+done
+
+# 2. 检查敏感信息模式
+echo "🔍 Scanning for sensitive patterns..."
+PATTERNS=(
+    'AKIA[0-9A-Z]{16}'
+    'ghp_[0-9a-zA-Z]{36}'
+    'eyJ[a-zA-Z0-9_-]{20,}\.[a-zA-Z0-9_-]{20,}\.[a-zA-Z0-9_-]{20,}'
+    '-----BEGIN (RSA |EC |DSA |OPENSSH )?PRIVATE KEY-----'
+)
+
+for f in $STAGED_FILES; do
+    if [[ "$f" == wiki/* ]] || [[ "$f" == schema/* ]]; then
+        for pattern in "${PATTERNS[@]}"; do
+            if grep -qE "$pattern" "$f" 2>/dev/null; then
+                echo "⚠️  WARNING: $f matches sensitive pattern: $pattern"
+            fi
+        done
+    fi
+done
+
+# 3. 确认 raw/ 不在暂存区
+if echo "$STAGED_FILES" | grep -q '^raw/'; then
+    echo "❌ BLOCKED: raw/ files should not be committed (gitignored)"
+    HAS_ERROR=1
+fi
+
+if [ $HAS_ERROR -eq 1 ]; then
+    echo ""
+    echo "👉 Commit blocked. Fix the issues above and try again."
+    exit 1
+fi
+
+echo "✅ Pre-commit check passed"
+exit 0
