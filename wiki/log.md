@@ -34,3 +34,9 @@ updated: 2026-06-16
 ## 2026-05-29
 
 - sqli-labs Less-1 至 Less-24 通关完毕
+
+- **20:32** — `ingest` — raw/inbox 资料整理入库
+  - 腾讯云渗透黑客松 Agent 架构分析 → `wiki/tool-research/ai-pentest-agent-architecture`
+  - Claude Skills 方法论 → `wiki/workflows/ai-skills-methodology`
+  - 四级备考计划 → 保留 raw/inbox（非安全）
+  - 更新 index / overview / log

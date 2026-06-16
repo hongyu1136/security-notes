@@ -14,7 +14,7 @@ updated: 2026-06-16
 
 ### Web 安全
 - **SQL 注入**：sqli-labs 1-30 关通关，覆盖联合查询、报错注入、布尔盲注、时间盲注、堆叠注入、宽字节注入、HTTP 头注入、二次注入、WAF 绕过
-  - [[wiki/labs/sqli-labs-25-30-summary|Less 25-30 总结]]
+  - [[labs/sqli-labs/sqli-labs-25-30-summary|Less 25-30 总结]]
 - **XSS**：xss-labs 进行中，Pikachu 反射/存储/DOM 型完成
 - **文件上传**：upload-labs pass-1 至 pass-21 通关
 - **CSRF / SSRF / XXE / RCE / 文件包含**：Pikachu 靶场完成
@@ -69,3 +69,8 @@ updated: 2026-06-16
 ## 更新记录
 
 - **2026-06-16**：初始化全景页，sqli-labs 25-30 总结归档
+
+## AI + 安全
+
+- [[wiki/tool-research/ai-pentest-agent-architecture|AI 自动化渗透 Agent 架构]] — 腾讯云黑客松十强方案：中心化 vs 去中心化架构对比，工程化增益 > 模型本身
+- [[wiki/workflows/ai-skills-methodology|AI Skills 方法论]] — Skill = 操作规程，Reference = 经验库，模型 = 推理引擎，你是决策者
