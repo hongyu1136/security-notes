@@ -30,7 +30,7 @@ echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.
 ```
 ' onfocus='alert(1)' autofocus='
 ```
-![](99_Attachments/图片/level3/file-20260616200722469.png)
+![](../../../99_Attachments/图片/level3/file-20260617192744621.png)
 ## 闭合原理
 
 拼进去变成：

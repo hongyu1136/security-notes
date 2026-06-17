@@ -29,7 +29,7 @@ echo "<input name=keyword  value=\"".$str3."\">";
 ```
 " onfocus="alert(1)" autofocus="
 ```
-![](99_Attachments/图片/level4/file-20260616201513884.png)
+![](../../../99_Attachments/图片/level4/file-20260617192744537.png)
 ## 闭合原理
 
 `<>` 被删？payload 里一个 `<` `>` 都没用：

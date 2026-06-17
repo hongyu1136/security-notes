@@ -37,7 +37,7 @@ echo '<input name=keyword value="'.$str6.'">';
 ```
 " ONfocus="alert(1)" autofOcus="
 ```
-![](99_Attachments/图片/level6/file-20260616202804354.png)
+![](../../../99_Attachments/图片/level6/file-20260617192744722.png)
 ## 闭合原理
 
 和第 2 关一样，就是 `<script>` 里 S 大写：

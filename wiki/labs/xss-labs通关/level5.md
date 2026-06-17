@@ -16,7 +16,7 @@ echo '<input name=keyword value="'.$str3.'">';
 ```
 
 三刀：`<script` → `<scr_ipt`，所有 `on*` 事件 → `o_n*`，大小写混写也被 `strtolower` 杀
-![](99_Attachments/图片/level5/file-20260616202209711.png)
+![](../../../99_Attachments/图片/level5/file-20260617192744663.png)
 
 但 `<>"` 一个没拦 → 破标签后不能用 script，换个标签
 
@@ -26,10 +26,10 @@ echo '<input name=keyword value="'.$str3.'">';
 "><a href="javascript:alert(1)">click</a>
 ```
 
-![](99_Attachments/图片/level5/file-20260616202315535.png)
+![](../../../99_Attachments/图片/level5/file-20260617192744663%201.png)
 
 点击
-![](99_Attachments/图片/level5/file-20260616202345782.png)
+![](../../../99_Attachments/图片/level5/file-20260617192744665.png)
 ## 闭合原理
 
 ```html
