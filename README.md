@@ -2,6 +2,11 @@
 
 信息安全/网络安全学习与研究的 Obsidian Vault，采用 [Andrej Karpathy LLM Wiki](https://github.com/karpathy/llm-wiki) 三层架构。
 
+## 公开范围
+
+**wiki/ 层仅包含**：靶场通关记录、自研方法论、工作流、工具笔记。
+**不包含**：知识星球/付费社区内容、未授权渗透细节、他人版权材料。
+
 ## 三层架构
 
 | 层级 | 目录 | Git | 职责 |
