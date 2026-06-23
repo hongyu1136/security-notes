@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/xss-labs通关/level13.md",
+                "file": "wiki/labs/xss-labs通关/level16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "level13"
+              "title": "level16"
             }
           }
         ]
@@ -205,6 +205,14 @@
   },
   "active": "7a154afae44d0f6a",
   "lastOpenFiles": [
+    "wiki/labs/xss-labs通关/level17.md",
+    "99_Attachments/图片/level16/file-20260623193216679.png",
+    "99_Attachments/图片/level16/file-20260623193157021.png",
+    "99_Attachments/图片/level16",
+    "wiki/labs/xss-labs通关/level2.md",
+    "wiki/labs/xss-labs通关/level16.md",
+    "wiki/labs/xss-labs通关/level1.md",
+    "wiki/labs/xss-labs通关/level13.md",
     "99_Attachments/图片/level13/file-20260622195716623.png",
     "99_Attachments/图片/level13/file-20260622195707722.png",
     "99_Attachments/图片/level13/file-20260622195647961.png",
@@ -218,7 +226,6 @@
     "99_Attachments/图片/level11/file-20260622195551211.png",
     "99_Attachments/图片/level11",
     "wiki/labs/xss-labs通关/level10.md",
-    "wiki/labs/xss-labs通关/level13.md",
     "wiki/labs/xss-labs通关/level6.md",
     "wiki/labs/xss-labs通关/level7.md",
     "wiki/labs/xss-labs通关/level9.md",
@@ -228,29 +235,22 @@
     "README.md.tmp.35852.ab99cd6d2b8e",
     "99_Attachments/图片/level10/file-20260617195332430.png",
     "99_Attachments/图片/level10",
-    "wiki/labs/xss-labs通关/level2.md",
-    "wiki/labs/xss-labs通关/level1.md",
-    "99_Attachments/图片/level9/file-20260617194447290.png",
     "99_Attachments/图片/level9",
     "wiki/labs/xss-labs通关/level8.md",
     "wiki/labs/pikachu靶场通关/xss/DOM型XSS-X.md",
-    "99_Attachments/图片/level8/file-20260617193718212.png",
     "99_Attachments/图片/level8",
     "wiki/labs/xxs-labs通关/level8.md",
     "wiki/labs/xxs-labs通关",
     "wiki/labs/pikachu靶场通关/xss/DOM型xss.md",
     "wiki/labs/pikachu靶场通关/xss/反射型xss(get).md",
     "wiki/labs/pikachu靶场通关/xss/存储型xss.md",
-    "99_Attachments/图片/level7/file-20260617192744750.png",
     "99_Attachments/图片/level7",
     "wiki/tool-research/ai-pentest-agent-architecture.md",
     "wiki/workflows/ai-skills-methodology.md",
     "_private/AI上下文06-16.md",
     "raw/inbox/Claude-Skills本质分析.md",
     "raw/inbox/腾讯云渗透黑客松-Agent架构分析.md",
-    "wiki/index.md.tmp.40544.9906177a9898",
     "wiki/labs/xss-labs通关/level5.md",
-    "wiki/labs/xss-labs通关/level4.md",
     "未命名.canvas"
   ]
 }
