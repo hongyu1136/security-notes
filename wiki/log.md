@@ -46,3 +46,4 @@ updated: 2026-06-16
   - ai-skills-methodology → raw/research/
   - 更新 README/index/overview 反映新边界
 - **21:20** — `policy` — 最终公开边界确认：靶场 ✅ 方法论 ✅ 工具 ✅ 复盘 ✅ | AI研究 ❌ 付费 ❌ 他人原文 ❌
+- **21:30** — `ingest` — SQLMap 红队实战用法 → wiki/tools/sqlmap-redteam-usage（首个工具卡片）

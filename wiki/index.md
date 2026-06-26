@@ -27,6 +27,7 @@ updated: 2026-06-16
 
 ### 工具与靶场
 - `wiki/tools/` — 工具卡片
+  - [[wiki/tools/sqlmap-redteam-usage|SQLMap 红队实战用法]]
 - `wiki/labs/` — 靶场通关记录
   - [[wiki/labs/sqli-labs/|sqli-labs]] · [[wiki/labs/pikachu靶场通关/|Pikachu]] · [[wiki/labs/upload-labs靶场通关/|Upload-labs]] · [[wiki/labs/xxs-labs通关/|XSS-labs]]
 - `wiki/tool-research/` — 工具评测与研究
