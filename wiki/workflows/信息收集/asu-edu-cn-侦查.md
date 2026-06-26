@@ -55,3 +55,31 @@ ysx1.asu.edu.cn
 yyyyx.asu.edu.cn
 zdxk.asu.edu.cn
 ```
+
+
+## httpx探测存活
+```
+http://authserver.asu.edu.cn
+http://ehall.asu.edu.cn
+https://ykt.asu.edu.cn
+http://mail.asu.edu.cn
+```
+
+## 攻击面分析（6.26 人工踩点）
+
+| 子域名 | 猜测功能 | 实测结果 |
+|------|---------|---------|
+| authserver | 统一认证 CAS | ✅ 登录页 |
+| ehall | 一站式服务大厅 | ✅ 跳转 CAS |
+| ykt | 一卡通系统 | ✅ 跳转 CAS（HTTPS） |
+| mail | 邮件系统 | ⚠️ 未跳转 CAS，可能独立认证 |
+
+### 🔴 关键发现
+
+**authserver + ehall + ykt 共用同一 SSO。** 这意味着：
+
+- CAS 是单点瓶颈 — 绕过 authserver 就穿全站（ehall + ykt 全通）
+- ykt 含消费流水、余额、门禁数据，是最值钱的目标
+- mail 可能独立认证或也存在 SSO 重定向，需进一步验证
+
+暑假优先打 authserver：测试 JWT 伪造、登录绕过、弱口令、未授权接口。

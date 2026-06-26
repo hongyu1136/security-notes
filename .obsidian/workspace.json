@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "asu-edu-cn-侦查"
             }
           },
           {
             "id": "5ac49401503e2c4a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "raw/inbox/不安全对象调用案例.pdf"
+                "file": "wiki/tools/ARL灯塔.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "不安全对象调用案例"
+              "icon": "lucide-file",
+              "title": "ARL灯塔"
             }
           }
         ]
@@ -217,18 +219,18 @@
   },
   "active": "7a154afae44d0f6a",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "README.md",
-    "raw/inbox/Log4j漏洞分析.pdf",
     "wiki/tools/ARL灯塔.md",
-    "wiki/workflows/渗透测试/渗透测试流程.md",
-    "wiki/workflows/信息收集/信息收集流程.md",
+    "raw/inbox/不安全对象调用案例.pdf",
     "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
+    "wiki/workflows/信息收集/信息收集流程.md",
+    "README.md",
+    "CLAUDE.md",
+    "raw/inbox/Log4j漏洞分析.pdf",
+    "wiki/workflows/渗透测试/渗透测试流程.md",
     "wiki/overview.md",
     "wiki/log.md",
     "wiki/index.md",
     "wiki/labs/dvwa/Command Injection（命令注入）/4.Impossible（防护正确）.md",
-    "raw/inbox/不安全对象调用案例.pdf",
     "raw/inbox/不安全对象调用案例 (1).pdf",
     "raw/inbox/如何挖到第一个RCE.pdf",
     "raw/inbox/Claude-Skills本质分析.md",
@@ -258,7 +260,6 @@
     "99_Attachments/图片/1. Low（无防护）/file-20260625193341824.png",
     "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
     "wiki/labs/pikachu/URL重定向/不安全的url跳转.md",
-    "wiki/labs/dvwa/未命名.md",
     "99_Attachments/图片/level16/file-20260623193216679.png",
     "99_Attachments/图片/level16/file-20260623193157021.png",
     "99_Attachments/图片/level13/file-20260622195716623.png",
