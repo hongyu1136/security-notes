@@ -38,6 +38,7 @@ Payload 示例：
 
 jwt.io 上切 Encoder，alg 选 none，右边生成 token 末尾只有一个点。
 
+![](99_Attachments/图片/jwt攻击/file-20260626144309448.png)
 ---
 
 ## 第三关：错误泄露密钥
@@ -56,6 +57,8 @@ if err != nil {
 拿到密钥后用 HS256 + 真密钥签名任意 token。
 
 **踩坑**：`flag` 字段设成 `1`（数字），不能用 `true`（字符串）。jwt-go 库的类型检测很严格。
+
+![](99_Attachments/图片/jwt攻击/file-20260626144334785.png)
 
 ---
 
