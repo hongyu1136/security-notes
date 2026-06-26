@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/workflows/渗透测试/渗透测试流程.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "渗透测试流程"
+              "title": "README"
             }
           },
           {
@@ -217,6 +217,11 @@
   },
   "active": "7a154afae44d0f6a",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "README.md",
+    "raw/inbox/Log4j漏洞分析.pdf",
+    "wiki/tools/ARL灯塔.md",
+    "wiki/workflows/渗透测试/渗透测试流程.md",
     "wiki/workflows/信息收集/信息收集流程.md",
     "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
     "wiki/overview.md",
@@ -227,7 +232,6 @@
     "raw/inbox/不安全对象调用案例 (1).pdf",
     "raw/inbox/如何挖到第一个RCE.pdf",
     "raw/inbox/Claude-Skills本质分析.md",
-    "raw/inbox/Log4j漏洞分析.pdf",
     "raw/legacy/网络工程师学习笔记.md",
     "raw/research/ai-skills-methodology.md",
     "raw/research/ai-pentest-agent-architecture.md",
@@ -255,10 +259,6 @@
     "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
     "wiki/labs/pikachu/URL重定向/不安全的url跳转.md",
     "wiki/labs/dvwa/未命名.md",
-    "wiki/labs/dvwa/未命名 1.md",
-    "wiki/labs/sqli-labs/Less-29.md",
-    "wiki/labs/sqli-labs/sql注入知识.md",
-    "wiki/labs/sqli-labs/sqli-labs-25-30-summary.md",
     "99_Attachments/图片/level16/file-20260623193216679.png",
     "99_Attachments/图片/level16/file-20260623193157021.png",
     "99_Attachments/图片/level13/file-20260622195716623.png",
