@@ -42,6 +42,7 @@ updated: 2026-06-16
 - `wiki/reviews/` — 定期复盘（日/周/月）
 - `wiki/workflows/` — 可复用工作流
   - [[wiki/workflows/信息收集/信息收集流程|信息收集]] · [[wiki/workflows/漏洞挖掘/漏洞挖掘流程|漏洞挖掘]] · [[wiki/workflows/渗透测试/渗透测试流程|渗透测试]] · [[wiki/workflows/应急响应/应急响应流程|应急响应]] · [[wiki/workflows/报告撰写/报告撰写流程|报告撰写]]
+  - [[wiki/workflows/claude-code-automation|Claude Code 自动化]] — loop/goal/hooks/子agent 四种形态
 
 ## 模板入口
 
