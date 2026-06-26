@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
+                "file": "wiki/tools/sqlmap-redteam-usage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asu-edu-cn-侦查"
+              "title": "sqlmap-redteam-usage"
             }
           },
           {
@@ -217,13 +217,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7a154afae44d0f6a",
+  "active": "8b122482dfd68420",
   "lastOpenFiles": [
+    "wiki/index.md.tmp.37168.fea934f8a521",
+    "wiki/workflows/claude-code-automation.md",
+    "wiki/index.md.tmp.37168.1a1980d69136",
+    "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
+    "wiki/tools/sqlmap-redteam-usage.md",
     "_private/asu-edu-cn-侦查.md",
     "_private/gzcpu-edu-cn-侦查.md",
     "wiki/tools/ARL灯塔.md",
     "raw/inbox/不安全对象调用案例.pdf",
-    "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
     "wiki/workflows/信息收集/信息收集流程.md",
     "README.md",
     "CLAUDE.md",
@@ -250,17 +254,13 @@
     "raw/research",
     "raw/inbox/未命名.md",
     "raw/inbox/无回显SSRF(脱敏).docx",
-    "raw/inbox/并发案例(一).docx",
     "wiki/labs/sqli-labs/靶场搭建.md",
     "wiki/labs/dvwa/Command Injection（命令注入）/3. High（杀了几乎所有符号——但漏了一个）.md",
     "99_Attachments/图片/3. High（杀了几乎所有符号——但漏了一个）/file-20260625194437470.png",
     "wiki/labs/dvwa/Command Injection（命令注入）/2.medium（只杀了两个分隔符）.md",
     "99_Attachments/图片/2.medium（只杀了两个分隔符）/file-20260625194123530.png",
-    "wiki/labs/命令注入知识.md",
-    "wiki/labs/dvwa/Command Injection（命令注入）/1. Low（无防护）.md",
     "99_Attachments/图片/1. Low（无防护）/file-20260625193341823.png",
     "99_Attachments/图片/1. Low（无防护）/file-20260625193341824.png",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
     "99_Attachments/图片/level16/file-20260623193216679.png",
     "99_Attachments/图片/level16/file-20260623193157021.png",
     "99_Attachments/图片/level13/file-20260622195716623.png",
