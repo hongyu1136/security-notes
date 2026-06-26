@@ -45,3 +45,4 @@ updated: 2026-06-16
   - ai-pentest-agent-architecture → raw/research/
   - ai-skills-methodology → raw/research/
   - 更新 README/index/overview 反映新边界
+- **21:20** — `policy` — 最终公开边界确认：靶场 ✅ 方法论 ✅ 工具 ✅ 复盘 ✅ | AI研究 ❌ 付费 ❌ 他人原文 ❌
