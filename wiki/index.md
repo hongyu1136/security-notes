@@ -30,8 +30,7 @@ updated: 2026-06-16
 - `wiki/labs/` — 靶场通关记录
   - [[wiki/labs/sqli-labs/|sqli-labs]] · [[wiki/labs/pikachu靶场通关/|Pikachu]] · [[wiki/labs/upload-labs靶场通关/|Upload-labs]] · [[wiki/labs/xxs-labs通关/|XSS-labs]]
 - `wiki/tool-research/` — 工具评测与研究
-  - [[wiki/tool-research/ai-pentest-agent-architecture|AI 渗透 Agent 架构]] — 腾讯云黑客松十强方案拆解
-
+  
 ### 研究与竞赛
 - `wiki/vuln-research/` — 漏洞深度研究
 - `wiki/ctf/` — CTF 比赛笔记
@@ -42,7 +41,6 @@ updated: 2026-06-16
 - `wiki/reviews/` — 定期复盘（日/周/月）
 - `wiki/workflows/` — 可复用工作流
   - [[wiki/workflows/信息收集/信息收集流程|信息收集]] · [[wiki/workflows/漏洞挖掘/漏洞挖掘流程|漏洞挖掘]] · [[wiki/workflows/渗透测试/渗透测试流程|渗透测试]] · [[wiki/workflows/应急响应/应急响应流程|应急响应]] · [[wiki/workflows/报告撰写/报告撰写流程|报告撰写]]
-  - [[wiki/workflows/ai-skills-methodology|AI Skills 方法论]] — 用 AI 辅助安全研究
 
 ## 模板入口
 

@@ -22,9 +22,7 @@ updated: 2026-06-16
 
 ### 工具链
 - Docker 部署（Vulhub、Pikachu、DVWA）
-  - [[wiki/tool-research/docker/部署vulhub|部署 Vulhub]]
-  - [[wiki/tool-research/docker/部署经典靶场（pikachu、dvwa等）|部署经典靶场]]
-
+    
 ### 靶场进度
 
 | 靶场 | 进度 | 目录 |

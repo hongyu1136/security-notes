@@ -40,3 +40,8 @@ updated: 2026-06-16
   - Claude Skills 方法论 → `wiki/workflows/ai-skills-methodology`
   - 四级备考计划 → 保留 raw/inbox（非安全）
   - 更新 index / overview / log
+
+- **21:15** —  — AI笔记撤出wiki，严格执行「仅靶场通关」公开策略
+  - ai-pentest-agent-architecture → raw/research/
+  - ai-skills-methodology → raw/research/
+  - 更新 README/index/overview 反映新边界
