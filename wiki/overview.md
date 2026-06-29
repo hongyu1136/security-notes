@@ -70,5 +70,6 @@ updated: 2026-06-16
 
 ## AI + 安全
 
-- [[wiki/tool-research/ai-pentest-agent-architecture|AI 自动化渗透 Agent 架构]] — 腾讯云黑客松十强方案：中心化 vs 去中心化架构对比，工程化增益 > 模型本身
-- [[wiki/workflows/ai-skills-methodology|AI Skills 方法论]] — Skill = 操作规程，Reference = 经验库，模型 = 推理引擎，你是决策者
+- [[wiki/workflows/claude-code-automation|Claude Code 自动化]] — loop/goal/hooks/子agent 四种形态
+- [[wiki/tools/sqlmap-redteam-usage|SQLMap 红队实战用法]] — 工具卡片
+- AI Agent 渗透架构 / Skills 方法论 → raw/research/（私有）
