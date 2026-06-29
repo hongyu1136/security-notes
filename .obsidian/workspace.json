@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a154afae44d0f6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/tools/sqlmap-redteam-usage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sqlmap-redteam-usage"
-            }
-          },
-          {
             "id": "5ac49401503e2c4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/tools/ARL灯塔.md",
+                "file": "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARL灯塔"
+              "title": "low"
             }
           }
         ]
@@ -217,18 +203,19 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a073355d12fb10c2",
+  "active": "5ac49401503e2c4a",
   "lastOpenFiles": [
+    "wiki/tools/ARL灯塔.md",
+    "wiki/index.md",
+    "wiki/tools/sqlmap-redteam-usage.md",
     "_private/AI上下文06-29.md",
     "_private/AI-上下文.md",
     "wiki/index.md.tmp.37168.fea934f8a521",
     "wiki/workflows/claude-code-automation.md",
     "wiki/index.md.tmp.37168.1a1980d69136",
     "wiki/workflows/信息收集/asu-edu-cn-侦查.md",
-    "wiki/tools/sqlmap-redteam-usage.md",
     "_private/asu-edu-cn-侦查.md",
     "_private/gzcpu-edu-cn-侦查.md",
-    "wiki/tools/ARL灯塔.md",
     "raw/inbox/不安全对象调用案例.pdf",
     "wiki/workflows/信息收集/信息收集流程.md",
     "README.md",
@@ -237,7 +224,6 @@
     "wiki/workflows/渗透测试/渗透测试流程.md",
     "wiki/overview.md",
     "wiki/log.md",
-    "wiki/index.md",
     "wiki/labs/dvwa/Command Injection（命令注入）/4.Impossible（防护正确）.md",
     "raw/inbox/不安全对象调用案例 (1).pdf",
     "raw/inbox/如何挖到第一个RCE.pdf",
