@@ -72,4 +72,4 @@ if err != nil {
 
 ## 实战怎么用
 
-edusrc 登录口拿到 JWT → jwt.io 解码看结构 → 先试 alg:none → 不行看报错有没有泄露 key。
+登录口拿到 JWT → jwt.io 解码看结构 → 先试 alg:none → 不行看报错有没有泄露 key。
