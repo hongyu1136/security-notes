@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "208bf40d200a6e4c",
+        "id": "a0e9221da3851cfc",
         "type": "tabs",
         "children": [
           {
-            "id": "5ac49401503e2c4a",
+            "id": "35a4721fdcc5c803",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/labs/pikachu/CSRF/CSRF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSRF"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -203,8 +199,23 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5ac49401503e2c4a",
+  "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/labs/xss-labs通关/level2.md",
+    "wiki/labs/xss-labs通关/level1.md",
+    "wiki/labs/pikachu/xss/DOM型xss.md",
+    "wiki/labs/pikachu/xss/反射性xss(post).md",
+    "wiki/labs/pikachu/xss/反射型xss(get).md",
+    "wiki/labs/pikachu/xss/存储型xss.md",
+    "wiki/labs/pikachu/sql注入/数字型注入（post）.md",
+    "wiki/labs/pikachu/sql注入/宽字节注入.md",
+    "wiki/labs/pikachu/sql注入/基于时间的盲注.md",
+    "wiki/labs/pikachu/sql注入/基于布尔（boolian）盲注.md",
+    "wiki/labs/pikachu/sql注入/0.sql注入.md",
+    "raw/inbox/Log4j漏洞分析.pdf",
+    "raw/inbox/腾讯云渗透黑客松-Agent架构分析.md",
+    "raw/inbox/如何挖到一个RCE.pdf",
+    "wiki/labs/pikachu/CSRF/CSRF.md",
     "wiki/labs/pikachu/目录遍历（..／..／）/1.目录遍历.md",
     "wiki/labs/pikachu/目录遍历（..／..／）/0.目录遍历（..／..／）.md",
     "wiki/labs/pikachu/敏感信息泄露/icanseeyourABC.md",
@@ -218,21 +229,7 @@
     "wiki/tools/ARL灯塔.md",
     "wiki/labs/命令注入知识.md",
     "CLAUDE.md",
-    "README.md",
-    "wiki/workflows/claude-code-automation.md",
-    "raw/inbox/Log4j漏洞分析.pdf",
-    "raw/inbox/Claude-Skills本质分析.md",
-    "raw/inbox/腾讯云渗透黑客松-Agent架构分析.md",
-    "raw/inbox/四级备考计划.md",
     "raw/inbox/不安全对象调用案例.pdf",
-    "wiki/labs/vulinbox/jwt攻击.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/4.Impossible.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/3.High.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/2.Medium.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/1.Low.md",
-    "_private/AI上下文07-02.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
-    "wiki/labs/dvwa/暴力破解/Low.md",
     "wiki/labs/dvwa/暴力破解",
     "wiki/index.md.tmp.37168.fea934f8a521",
     "wiki/index.md.tmp.37168.1a1980d69136",
@@ -242,7 +239,6 @@
     "sedGTqTen",
     "99_Attachments/图片/jwt攻击/file-20260626144334785.png",
     "99_Attachments/图片/jwt攻击/file-20260626144309448.png",
-    "99_Attachments/图片/jwt攻击",
     "99_Attachments/图片/3. High（杀了几乎所有符号——但漏了一个）/file-20260625194437470.png",
     "99_Attachments/图片/2.medium（只杀了两个分隔符）/file-20260625194123530.png",
     "99_Attachments/图片/1. Low（无防护）/file-20260625193341823.png",
