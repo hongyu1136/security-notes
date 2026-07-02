@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
+                "file": "wiki/labs/dvwa/Brute Force（暴力破解）/4.Impossible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "low"
+              "title": "4.Impossible"
             }
           }
         ]
@@ -203,9 +203,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "5ac49401503e2c4a",
+  "active": "a073355d12fb10c2",
   "lastOpenFiles": [
+    "wiki/labs/dvwa/Brute Force（暴力破解）/3.High.md",
+    "wiki/labs/dvwa/Brute Force（暴力破解）/1.Low.md",
+    "wiki/labs/dvwa/Brute Force（暴力破解）/4.Impossible.md",
+    "wiki/labs/dvwa/Brute Force（暴力破解）/2.Medium.md",
     "wiki/tools/ARL灯塔.md",
+    "wiki/labs/dvwa/Brute Force（暴力破解）/low.md",
+    "wiki/labs/dvwa/暴力破解/Low.md",
+    "wiki/labs/dvwa/暴力破解",
     "wiki/index.md",
     "wiki/tools/sqlmap-redteam-usage.md",
     "_private/AI上下文06-29.md",
@@ -231,18 +238,11 @@
     "raw/legacy/网络工程师学习笔记.md",
     "raw/research/ai-skills-methodology.md",
     "raw/research/ai-pentest-agent-architecture.md",
-    "wiki/workflows/漏洞挖掘/漏洞挖掘流程.md",
     "sedeiYGNk",
     "sedGTqTen",
-    "wiki/workflows/报告撰写/报告撰写流程.md",
-    "wiki/labs/vulinbox/jwt攻击.md",
     "99_Attachments/图片/jwt攻击/file-20260626144334785.png",
     "99_Attachments/图片/jwt攻击/file-20260626144309448.png",
     "99_Attachments/图片/jwt攻击",
-    "raw/research",
-    "raw/inbox/未命名.md",
-    "wiki/labs/sqli-labs/靶场搭建.md",
-    "wiki/labs/dvwa/Command Injection（命令注入）/3. High（杀了几乎所有符号——但漏了一个）.md",
     "99_Attachments/图片/3. High（杀了几乎所有符号——但漏了一个）/file-20260625194437470.png",
     "99_Attachments/图片/2.medium（只杀了两个分隔符）/file-20260625194123530.png",
     "99_Attachments/图片/1. Low（无防护）/file-20260625193341823.png",
