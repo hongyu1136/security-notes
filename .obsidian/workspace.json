@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/workflows/claude-code-automation.md",
+                "file": "wiki/labs/xss-labs通关/level1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-code-automation"
+              "title": "level1"
             }
           }
         ]
@@ -203,8 +203,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a073355d12fb10c2",
+  "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/labs/xss-labs通关/level2.md",
+    "wiki/workflows/claude-code-automation.md",
     "_private/AI上下文07-11.md",
     "wiki/tools/ARL灯塔.md",
     "wiki/labs/dvwa/Brute Force（暴力破解）/4.Impossible.md",
@@ -218,7 +220,6 @@
     "wiki/labs/dvwa/SQL injection sql注入/1.Low.md",
     "wiki/labs/dvwa/SQL injection sql注入",
     "wiki/labs/dvwa/新建文件夹",
-    "wiki/labs/xss-labs通关/level2.md",
     "wiki/labs/xss-labs通关/level1.md",
     "wiki/labs/pikachu/xss/DOM型xss.md",
     "wiki/labs/pikachu/xss/反射性xss(post).md",
@@ -234,7 +235,6 @@
     "raw/inbox/如何挖到一个RCE.pdf",
     "wiki/labs/pikachu/CSRF/CSRF.md",
     "wiki/labs/pikachu/目录遍历（..／..／）/1.目录遍历.md",
-    "wiki/labs/pikachu/目录遍历（..／..／）/0.目录遍历（..／..／）.md",
     "raw/inbox/不安全对象调用案例.pdf",
     "wiki/labs/dvwa/暴力破解",
     "wiki/index.md.tmp.37168.fea934f8a521",
