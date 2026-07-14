@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/dvwa/CSRF/3.High.md",
+                "file": "_private/供应商资产信息收集-20260714.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.High"
+              "title": "供应商资产信息收集-20260714"
             }
           }
         ],
@@ -220,8 +220,13 @@
   },
   "active": "d1df2940b590104b",
   "lastOpenFiles": [
-    "wiki/labs/dvwa/CSRF/2.Medium.md",
+    "_private/asu-edu-cn-侦查.md",
+    "_private/AI上下文07-13.md",
+    "_private/gzcpu-edu-cn-侦查.md",
     "wiki/labs/dvwa/CSRF/3.High.md",
+    "_private/供应商资产信息收集-20260714.md",
+    "_private/供应商信息收集报告-20260714.md",
+    "wiki/labs/dvwa/CSRF/2.Medium.md",
     "99_Attachments/图片/2.Medium/file-20260714110721741.png",
     "wiki/labs/dvwa/CSRF/1.Low.md",
     "99_Attachments/图片/1.Low/file-20260714104609300.png",
@@ -244,7 +249,6 @@
     "99_Attachments/图片/3.High",
     "wiki/labs/dvwa/XSS（Reflected）/2.Medium.md",
     "wiki/labs/xss-labs通关/level3.md",
-    "_private/AI上下文07-13.md",
     "wiki/labs/xss-labs通关/level2.md",
     "99_Attachments/图片/2.Medium/file-20260713161511392.png",
     "99_Attachments/图片/2.Medium/file-20260713161406272.png",
@@ -260,10 +264,6 @@
     "99_Attachments/图片/1.low",
     "wiki/labs/dvwa/XSS（Reflected）",
     "wiki/labs/dvwa/XSS（Reflected）.md",
-    "wiki/workflows/claude-code-automation.md",
-    "_private/AI上下文07-11.md",
-    "wiki/tools/ARL灯塔.md",
-    "wiki/labs/dvwa/Brute Force（暴力破解）/4.Impossible.md",
     "wiki/labs/dvwa/SQL injection sql注入",
     "wiki/labs/dvwa/新建文件夹",
     "未命名.canvas"
