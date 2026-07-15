@@ -203,8 +203,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "35a4721fdcc5c803",
+  "active": "a073355d12fb10c2",
   "lastOpenFiles": [
+    "wiki/面试/安全面试知识点Wiki.md",
+    "wiki/面试",
     "wiki/labs/dvwa/File Inclusion/4.Impossible.md",
     "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
     "wiki/labs/dvwa/File Upload/4.Impossible.md",
@@ -229,7 +231,6 @@
     "_private/信息收集~D2A9A.tmp",
     "_private/信息收集.docx",
     "_private/供应商资产信息收集-20260714~94317.tmp",
-    "_private/~$商资产信息收集-20260714.docx",
     "_private/asu-edu-cn-侦查.md",
     "_private/AI上下文07-13.md",
     "_private/gzcpu-edu-cn-侦查.md",
@@ -247,7 +248,6 @@
     "wiki/labs/vulinbox/jwt攻击.md",
     "wiki/labs/dvwa/SQL injection sql注入/4.Impossible.md",
     "wiki/labs/dvwa/SQL injection sql注入/3.High.md",
-    "wiki/labs/dvwa/SQL injection sql注入/2.Medium.md",
     "99_Attachments/图片/2.Medium/file-20260713163712833.png",
     "99_Attachments/图片/3.High/file-20260713163123723.png",
     "99_Attachments/图片/3.High/file-20260713162954752.png",
