@@ -205,6 +205,8 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/等保/基线排查标准与执行清单.md",
+    "wiki/等保",
     "wiki/labs/dvwa/SQL Injection（Blind）/2.Medium.md",
     "99_Attachments/图片/1.Low/file-20260715133519927.png",
     "wiki/tools/sqlmap-redteam-usage.md",
@@ -235,7 +237,6 @@
     "_private/信息收集~41B46.tmp",
     "_private/信息收集~2FF37.tmp",
     "_private/信息收集~D2A9A.tmp",
-    "_private/信息收集.docx",
     "_private/asu-edu-cn-侦查.md",
     "_private/AI上下文07-13.md",
     "_private/gzcpu-edu-cn-侦查.md",
@@ -248,7 +249,6 @@
     "wiki/labs/sqli-labs/Less-1.md",
     "wiki/labs/sqli-labs/Less-3.md",
     "wiki/labs/sqli-labs/Less-4.md",
-    "wiki/labs/sqli-labs/Less-2.md",
     "99_Attachments/图片/2.Medium/file-20260713163712833.png",
     "99_Attachments/图片/3.High/file-20260713163123723.png",
     "未命名.canvas"
