@@ -205,8 +205,11 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
-    "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
+    "wiki/labs/dvwa/SQL Injection（Blind）/2.Medium.md",
+    "99_Attachments/图片/1.Low/file-20260715133519927.png",
+    "wiki/tools/sqlmap-redteam-usage.md",
     "wiki/labs/dvwa/SQL Injection（Blind）/1.Low.md",
+    "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
     "wiki/labs/dvwa/SQL Injection（Blind）",
     "wiki/labs/dvwa/SQL injection sql注入/1.Low.md",
     "wiki/面试/安全面试知识点Wiki.md",
@@ -246,11 +249,8 @@
     "wiki/labs/sqli-labs/Less-3.md",
     "wiki/labs/sqli-labs/Less-4.md",
     "wiki/labs/sqli-labs/Less-2.md",
-    "wiki/labs/sqli-labs/sql注入知识.md",
-    "wiki/labs/vulinbox/jwt攻击.md",
     "99_Attachments/图片/2.Medium/file-20260713163712833.png",
     "99_Attachments/图片/3.High/file-20260713163123723.png",
-    "99_Attachments/图片/3.High/file-20260713162954752.png",
     "未命名.canvas"
   ]
 }
