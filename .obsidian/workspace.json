@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_private/蓝天实习学习/笔记/SNMP未授权.md",
+                "file": "_private/蓝天实习学习/笔记/安全生产信息化平台 - 逻辑漏洞链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SNMP未授权"
+              "title": "安全生产信息化平台 - 逻辑漏洞链"
             }
           }
         ]
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,14 +205,21 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
-    "CLAUDE.md",
+    "99_Attachments/图片/安全生产信息化平台 - 逻辑漏洞链/file-20260720141335602.png",
+    "99_Attachments/图片/安全生产信息化平台 - 逻辑漏洞链",
+    "_private/蓝天实习学习/笔记/打印机未授权.md",
+    "_private/蓝天实习学习/笔记/安全生产信息化平台 - 逻辑漏洞链.md",
     "_private/蓝天实习学习/笔记/SNMP未授权.md",
+    "_private/蓝天实习学习/笔记/大华摄像头未授权（CVE-2021-33044）.md",
+    "99_Attachments/图片/打印机未授权/file-20260720133921141.png",
+    "99_Attachments/图片/打印机未授权",
+    "_private/蓝天实习学习/笔记/SMB未授权访问.md",
     "_private/蓝天实习学习/笔记/FTP未授权访问.md",
+    "CLAUDE.md",
     "_private/AI上下文07-20.md",
     "99_Attachments/图片/FTP未授权访问/file-20260720114100003.png",
     "99_Attachments/图片/FTP未授权访问",
     "_private/蓝天实习学习/相关知识、报告及模板/国投盘江/~$洞清单(1).docx",
-    "_private/蓝天实习学习/笔记/SMB未授权访问.md",
     "99_Attachments/图片/SMB未授权访问/file-20260720113348628.png",
     "99_Attachments/图片/SMB未授权访问",
     "_private/asu-edu-cn-侦查.md",
@@ -238,20 +244,13 @@
     "wiki/labs/dvwa/File Upload/2.Medium.md",
     "wiki/labs/dvwa/File Upload/1.Low.md",
     "wiki/labs/dvwa/File Upload",
-    "wiki/labs/dvwa/File Inclusion/3.High.md",
     "99_Attachments/图片/3.High/file-20260715111330975.png",
-    "wiki/labs/dvwa/File Inclusion/2.Medium.md",
     "99_Attachments/图片/2.Medium/file-20260715110137338.png",
-    "wiki/labs/dvwa/File Inclusion/1.Low.md",
     "99_Attachments/图片/1.Low/file-20260715104705418.png",
     "99_Attachments/图片/1.Low/file-20260715104547754.png",
     "99_Attachments/图片/1.Low/file-20260715104443957.png",
     "wiki/labs/dvwa/File Inclusion",
-    "_private/~$信息收集.docx",
-    "_private/信息收集~73632.tmp",
-    "_private/gzcpu-edu-cn-侦查.md",
     "99_Attachments/图片/2.Medium/file-20260714110721741.png",
-    "99_Attachments/图片/1.Low/file-20260714104609300.png",
     "未命名.canvas"
   ]
 }
