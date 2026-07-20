@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_private/蓝天实习学习/笔记/Shiro反序列化漏洞（RCE）.md",
+                "file": "_private/蓝天实习学习/笔记/XML注入（XXE）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shiro反序列化漏洞（RCE）"
+              "title": "XML注入（XXE）"
             }
           }
         ]
@@ -205,12 +205,15 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "99_Attachments/图片/XML注入（XXE）/file-20260720164538475.png",
+    "99_Attachments/图片/XML注入（XXE）",
+    "_private/蓝天实习学习/笔记/Shiro反序列化漏洞（RCE）.md",
+    "_private/蓝天实习学习/笔记/XML注入（XXE）.md",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161656568.png",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161132774.png",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161052546.png",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）",
     "_private/蓝天实习学习/笔记/安全生产信息化平台 - 逻辑漏洞链.md",
-    "_private/蓝天实习学习/笔记/Shiro反序列化漏洞（RCE）.md",
     "99_Attachments/图片/安全生产信息化平台 - 逻辑漏洞链/file-20260720155714609.png",
     "99_Attachments/图片/安全生产信息化平台 - 逻辑漏洞链/file-20260720154513155.png",
     "99_Attachments/图片/安全生产信息化平台 - 逻辑漏洞链/file-20260720154404171.png",
@@ -240,7 +243,6 @@
     "wiki/labs/dvwa/SQL Injection（Blind）/1.Low.md",
     "wiki/等保",
     "wiki/labs/dvwa/SQL Injection（Blind）/2.Medium.md",
-    "99_Attachments/图片/1.Low/file-20260715133519927.png",
     "wiki/tools/sqlmap-redteam-usage.md",
     "wiki/labs/dvwa/SQL Injection（Blind）",
     "wiki/labs/dvwa/SQL injection sql注入/1.Low.md",
@@ -249,8 +251,6 @@
     "wiki/labs/dvwa/File Inclusion/4.Impossible.md",
     "wiki/labs/dvwa/File Upload/4.Impossible.md",
     "wiki/labs/dvwa/File Upload/3.High.md",
-    "wiki/labs/dvwa/File Upload/2.Medium.md",
-    "wiki/labs/dvwa/File Upload",
     "未命名.canvas"
   ]
 }
