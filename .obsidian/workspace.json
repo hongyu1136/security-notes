@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_private/蓝天实习学习/笔记/XML注入（XXE）.md",
+                "file": "_private/蓝天实习学习/笔记/打印机未授权.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XML注入（XXE）"
+              "title": "打印机未授权"
             }
           }
         ]
@@ -205,10 +205,10 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "_private/蓝天实习学习/笔记/XML注入（XXE）.md",
     "99_Attachments/图片/XML注入（XXE）/file-20260720164538475.png",
     "99_Attachments/图片/XML注入（XXE）",
     "_private/蓝天实习学习/笔记/Shiro反序列化漏洞（RCE）.md",
-    "_private/蓝天实习学习/笔记/XML注入（XXE）.md",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161656568.png",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161132774.png",
     "99_Attachments/图片/Shiro反序列化漏洞（RCE）/file-20260720161052546.png",
@@ -231,7 +231,6 @@
     "99_Attachments/图片/FTP未授权访问/file-20260720114100003.png",
     "99_Attachments/图片/FTP未授权访问",
     "_private/蓝天实习学习/相关知识、报告及模板/国投盘江/~$洞清单(1).docx",
-    "99_Attachments/图片/SMB未授权访问/file-20260720113348628.png",
     "99_Attachments/图片/SMB未授权访问",
     "_private/asu-edu-cn-侦查.md",
     "_private/AI上下文07-13.md",
