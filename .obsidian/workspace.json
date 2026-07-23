@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/dvwa/Open HTTP Redirect/3.High.md",
+                "file": "wiki/labs/dvwa/Cryptography/1.Low.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.High"
+              "title": "1.Low"
             }
           }
         ]
@@ -205,11 +205,20 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/labs/dvwa/API/4.Impossible.md",
+    "wiki/labs/dvwa/API/3.High.md",
+    "wiki/labs/dvwa/API/2.Medium.md",
+    "wiki/labs/dvwa/API/1.Low.md",
+    "wiki/labs/dvwa/API",
+    "wiki/labs/dvwa/Cryptography/2.Medium.md",
+    "99_Attachments/图片/2.Medium/file-20260723145929967.png",
+    "wiki/labs/dvwa/Cryptography/3.High.md",
+    "wiki/labs/dvwa/Open HTTP Redirect/3.High.md",
+    "wiki/labs/dvwa/Cryptography/4.Impossible.md",
     "wiki/labs/dvwa/Cryptography/1.Low.md",
     "wiki/labs/dvwa/Cryptography",
     "99_Attachments/图片/3.High/file-20260723140730623.png",
     "wiki/labs/dvwa/Authorisation Bypass/2.Medium.md",
-    "wiki/labs/dvwa/Open HTTP Redirect/3.High.md",
     "wiki/labs/dvwa/Open HTTP Redirect/2.Medium.md",
     "wiki/labs/dvwa/Open HTTP Redirect/1.Low.md",
     "wiki/labs/dvwa/Open HTTP Redirect",
@@ -237,20 +246,11 @@
     "wiki/labs/dvwa/CSP Bypass/3.High.md",
     "wiki/labs/dvwa/XSS（DOM）",
     "99_Attachments/图片/3.High/file-20260723112651717.png",
-    "wiki/labs/dvwa/CSP Bypass/2.Medium.md",
-    "wiki/labs/dvwa/CSP Bypass/4.Impossible.md",
     "99_Attachments/图片/2.Medium/file-20260723111745955.png",
-    "wiki/labs/dvwa/CSP Bypass/1.Low.md",
     "99_Attachments/图片/1.Low/file-20260723110448883.png",
-    "wiki/labs/vulhub/Weblogic SSRF 内网探测.md",
     "wiki/labs/dvwa/CSP Bypass",
-    "wiki/labs/dvwa/XSS（Stored）/4.Impossible.md",
-    "wiki/labs/dvwa/XSS（Stored）/3.High.md",
-    "wiki/labs/dvwa/XSS（Stored）/2.Medium.md",
     "wiki/labs/dvwa/XSS（Stored）",
-    "99_Attachments/图片/Weblogic SSRF 内网探测/file-20260723103447368.png",
     "99_Attachments/图片/Weblogic SSRF 内网探测",
-    "99_Attachments/图片/Shiro CVE-2016-4437 — 复现流程",
     "未命名.canvas"
   ]
 }
