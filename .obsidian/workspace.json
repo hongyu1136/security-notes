@@ -205,6 +205,8 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/labs/dvwa/Cryptography/1.Low.md",
+    "wiki/labs/dvwa/Cryptography",
     "99_Attachments/图片/3.High/file-20260723140730623.png",
     "wiki/labs/dvwa/Authorisation Bypass/2.Medium.md",
     "wiki/labs/dvwa/Open HTTP Redirect/3.High.md",
@@ -247,10 +249,8 @@
     "wiki/labs/dvwa/XSS（Stored）/2.Medium.md",
     "wiki/labs/dvwa/XSS（Stored）",
     "99_Attachments/图片/Weblogic SSRF 内网探测/file-20260723103447368.png",
-    "99_Attachments/图片/Weblogic SSRF 内网探测/file-20260723103438707.png",
     "99_Attachments/图片/Weblogic SSRF 内网探测",
     "99_Attachments/图片/Shiro CVE-2016-4437 — 复现流程",
-    "wiki/labs/vulhub",
     "未命名.canvas"
   ]
 }
