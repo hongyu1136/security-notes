@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
+                "file": "wiki/labs/xss-labs通关/level1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "渗透测试Wiki-速查手册"
+              "title": "level1"
             }
           }
         ]
@@ -205,10 +205,11 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "_private/AI上下文07-24.md",
+    "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
     "wiki/labs/vulinbox/Swagger-泄露.md",
     "wiki/labs/vulinbox/遍历与爆破.md",
     "wiki/labs/vulinbox/jwt攻击.md",
-    "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
     "wiki/labs/dvwa/Cryptography/1.Low.md",
     "wiki/labs/dvwa/API/4.Impossible.md",
     "wiki/labs/dvwa/API/3.High.md",
@@ -241,7 +242,6 @@
     "99_Attachments/图片/1.Low/file-20260723115641390.png",
     "99_Attachments/图片/1.Low/file-20260723115627255.png",
     "99_Attachments/图片/1.Low/file-20260723115603443.png",
-    "wiki/labs/dvwa/XSS（DOM）/3.High.md",
     "wiki/labs/dvwa/JavaScript Attacks",
     "99_Attachments/图片/1.Low/file-20260723112956682.png",
     "wiki/labs/dvwa/XSS（DOM）",
