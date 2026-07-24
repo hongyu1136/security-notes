@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/labs/vulhub/Log4j CVE-2021-44228.md",
+                "file": "wiki/labs/dvwa/API/4.Impossible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Log4j CVE-2021-44228"
+              "title": "4.Impossible"
             }
           }
         ]
@@ -205,6 +205,11 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "wiki/labs/dvwa/API/3.High.md",
+    "wiki/labs/dvwa/API/2.Medium.md",
+    "wiki/labs/dvwa/API/1.Low.md",
+    "99_Attachments/图片/1.Low/file-20260724140916877.png",
+    "wiki/labs/vulhub/Log4j CVE-2021-44228.md",
     "99_Attachments/图片/Log4j CVE-2021-44228/file-20260724133001460.png",
     "99_Attachments/图片/Log4j CVE-2021-44228",
     "wiki/labs/xss-labs通关/level1.md",
@@ -220,9 +225,6 @@
     "wiki/labs/vulinbox/jwt攻击.md",
     "wiki/labs/dvwa/Cryptography/1.Low.md",
     "wiki/labs/dvwa/API/4.Impossible.md",
-    "wiki/labs/dvwa/API/3.High.md",
-    "wiki/labs/dvwa/API/2.Medium.md",
-    "wiki/labs/dvwa/API/1.Low.md",
     "wiki/labs/dvwa/API",
     "wiki/labs/dvwa/Cryptography/2.Medium.md",
     "99_Attachments/图片/2.Medium/file-20260723145929967.png",
@@ -243,14 +245,11 @@
     "wiki/labs/dvwa/Authorisation Bypass",
     "wiki/labs/dvwa/Weak Session IDs/3.High.md",
     "wiki/labs/dvwa/Weak Session IDs/2.Medium.md",
-    "wiki/labs/dvwa/Weak Session IDs/1.Low.md",
     "99_Attachments/图片/1.Low/file-20260723115641390.png",
     "99_Attachments/图片/1.Low/file-20260723115627255.png",
     "99_Attachments/图片/1.Low/file-20260723115603443.png",
     "99_Attachments/图片/1.Low/file-20260723112956682.png",
     "99_Attachments/图片/3.High/file-20260723112651717.png",
-    "99_Attachments/图片/2.Medium/file-20260723111745955.png",
-    "99_Attachments/图片/1.Low/file-20260723110448883.png",
     "未命名.canvas"
   ]
 }
