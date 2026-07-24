@@ -52,11 +52,21 @@ if err != nil {
 
 **攻击**：发畸形 token 触发解析错误 → 响应里搜 `key:` → 拿到真密钥。
 
-**密钥是 Go byte 数组**：`[107 67 90 ...]` → ASCII 转换工具还原成字符串。
+**密钥是 Go byte 数组**：`[88 82 111...]` → ASCII 转换工具还原成字符串。
 
 拿到密钥后用 HS256 + 真密钥签名任意 token。
 
-**踩坑**：`flag` 字段设成 `1`（数字），不能用 `true`（字符串）。jwt-go 库的类型检测很严格。
+### 踩坑：flag 放哪
+
+- `flag` 放 **Payload** → 没用。服务器从数据库查用户数据，payload 只做身份校验
+- `flag` 放 **Header** → 生效。jwt-go 库会把 header 的自定义字段合并到解析后的 Map，被接口响应反射
+
+```
+Header: {"alg":"HS256","typ":"JWT","flag":1}  ← 这里
+Payload: {"username":"admin"}
+→ 服务器返回 {"flag":1, ...}
+→ 前端 if(data.flag) → Win!
+```
 
 ![](99_Attachments/图片/jwt攻击/file-20260626144334785.png)
 
