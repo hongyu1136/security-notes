@@ -205,6 +205,11 @@
   },
   "active": "35a4721fdcc5c803",
   "lastOpenFiles": [
+    "_private/AI上下文07-24.md.tmp.24212.b85c9aa670cb",
+    "_private/AI上下文07-24.md.tmp.24212.763fcacf38fe",
+    "_private/AI上下文07-24.md.tmp.24212.f13b4dc47dcc",
+    "_private/AI上下文07-24.md.tmp.24212.843f30da3711",
+    "_private/AI上下文07-24.md.tmp.24212.61412b6a2a41",
     "_private/AI上下文07-24.md",
     "wiki/labs/vulinbox/渗透测试Wiki-速查手册.md",
     "wiki/labs/vulinbox/Swagger-泄露.md",
@@ -238,19 +243,14 @@
     "wiki/labs/dvwa/Weak Session IDs/1.Low.md",
     "wiki/labs/dvwa/Weak Session IDs",
     "wiki/labs/dvwa/JavaScript Attacks/1.Low.md",
-    "wiki/labs/dvwa/JavaScript Attacks/2.Medium.md",
     "99_Attachments/图片/1.Low/file-20260723115641390.png",
     "99_Attachments/图片/1.Low/file-20260723115627255.png",
     "99_Attachments/图片/1.Low/file-20260723115603443.png",
     "wiki/labs/dvwa/JavaScript Attacks",
     "99_Attachments/图片/1.Low/file-20260723112956682.png",
-    "wiki/labs/dvwa/XSS（DOM）",
     "99_Attachments/图片/3.High/file-20260723112651717.png",
     "99_Attachments/图片/2.Medium/file-20260723111745955.png",
     "99_Attachments/图片/1.Low/file-20260723110448883.png",
-    "wiki/labs/dvwa/CSP Bypass",
-    "wiki/labs/dvwa/XSS（Stored）",
-    "99_Attachments/图片/Weblogic SSRF 内网探测",
     "未命名.canvas"
   ]
 }
